@@ -1,0 +1,19 @@
+No mesh cache file found (Dopamine-dSPN-network/mesh/Striatum-cube-mesh-7.196286713432867e-05.obj-71-cache.pickle)
+Running in serial
+Voxel mask: 5 x 5 x 5
+Processing x = 0
+Processing x = 1
+Processing x = 2
+Processing x = 3
+Processing x = 4
+Fraction of border voxels: 0.0
+Saving mesh cache file Dopamine-dSPN-network/mesh/Striatum-cube-mesh-7.196286713432867e-05.obj-71-cache.pickle
+Calculation time: 3.9311059530009516 s
+Setup voxel list
+Setup place neurons
+Update padding mask
+Setup done
+Inner voxel bin volume: 0.0 mm³
+Placed 10 in 0.018022996999206953 s
+Placed 10 in 0.022415209998143837 s
+Placed 10 in 0.03892547400027979 s

@@ -1,0 +1,15 @@
+import json
+import pathlib
+
+class synapseWise:
+
+    def __init__(self):
+
+        self.synapse_modulation = dict()
+
+
+    def save(self,dir_path,name):
+
+        out_file = open(pathlib.Path(dir_path) / name,'w')
+
+        json.dump(self.synapse_modulation,out_file)

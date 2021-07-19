@@ -1,0 +1,1 @@
+../mechanisms-modulation-ptr/kcnq_ch.mod

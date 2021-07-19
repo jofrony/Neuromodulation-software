@@ -1,0 +1,50 @@
+Found old cache file (Acetylcholine-Dopamine-concACh-concDA-network/mesh/Striatum-cube-mesh-7.35277651561601e-05.obj-73-cache.pickle), ignoring.
+Running in serial
+Voxel mask: 5 x 5 x 5
+Processing x = 0
+Processing x = 1
+Processing x = 2
+Processing x = 3
+Processing x = 4
+Fraction of border voxels: 0.0
+Saving mesh cache file Acetylcholine-Dopamine-concACh-concDA-network/mesh/Striatum-cube-mesh-7.35277651561601e-05.obj-73-cache.pickle
+Calculation time: 0.026362016986240633 s
+Setup voxel list
+Setup place neurons
+Update padding mask
+Regenerating new random pool
+Setup done
+Inner voxel bin volume: 0.0 mm³
+Found old cache file (Acetylcholine-Dopamine-concACh-concDA-network/mesh/SNc-cube-mesh-5.000000000000003e-05.obj-50-cache.pickle), ignoring.
+Running in serial
+Voxel mask: 5 x 5 x 6
+Processing x = 0
+Processing x = 1
+Processing x = 2
+Processing x = 3
+Processing x = 4
+Fraction of border voxels: 0.0
+Saving mesh cache file Acetylcholine-Dopamine-concACh-concDA-network/mesh/SNc-cube-mesh-5.000000000000003e-05.obj-50-cache.pickle
+Calculation time: 0.024393525993218645 s
+Setup voxel list
+Setup place neurons
+Update padding mask
+Regenerating new random pool
+Setup done
+Inner voxel bin volume: 0.0 mm³
+Placed 2 in 0.005029541003750637 s
+Placed 2 in 0.011345648992573842 s
+Placed 2 in 0.012448306995793246 s
+Placed 2 in 0.010350281998398714 s
+Placed 2 in 0.010626860006595962 s
+Placed 2 in 0.008953548996942118 s
+Placed 3 in 0.007175913007813506 s
+Placed 2 in 0.013988671998959035 s
+Placed 3 in 0.020247398992069066 s
+Placed 2 in 0.008518957998603582 s
+Placed 3 in 0.028082700009690598 s
+Placed 2 in 0.013022367988014594 s
+Placed 3 in 0.021215574990492314 s
+Placed 1 in 0.010250216000713408 s
+Placed 1 in 0.03728151600807905 s
+Placed 2 in 0.0010731740039773285 s

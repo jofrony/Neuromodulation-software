@@ -1,0 +1,1 @@
+../../../../../../BasalGangliaData/mod-ptr-files//hcn12_ch_ptr.mod

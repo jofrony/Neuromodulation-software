@@ -1,0 +1,11 @@
+Using hdf5 version: latest
+Parsing configuration file Dopamine-delays-network/network-config.json
+Reading random seed from config file: 3048105090
+Using mesh_bin_width 7.196286713432867e-05
+Cube or slice mesh, switching to serial processing.
+Using dimensions from config file
+Adding: 10 dSPN_0
+Adding: 10 dSPN_1
+Adding: 10 dSPN_2
+Re-sorting the neuron IDs
+Writing data to HDF5 file: Dopamine-delays-network/network-neuron-positions.hdf5

@@ -1,0 +1,45 @@
+Using networkFile: Dopamine-network/network-synapses.hdf5
+Using inputFile: Dopamine-network/input-spikes.hdf5
+Using logFile: Dopamine-network/log/network-simulation-log.txt
+Worker 3 : Loading network from Dopamine-network/network-synapses.hdf5
+Loading config file Dopamine-network/network-config.json
+Worker 2 : Loading network from Dopamine-network/network-synapses.hdf5
+Loading config file Dopamine-network/network-config.json
+2 : Memory status: 48% free
+Distributing neurons.
+Setup neurons
+Node 2 - cell 2 dSPN_1
+Neuron dSPN_1 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+Node 2 - cell 6 iSPN_1NNeuron iSPN_1 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+Node 2 - cell 10 dSPN_1NNeuron dSPN_1 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+Node 2 - cell 14 dSPN_1NNeuron dSPN_1 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+Node 2 - cell 18 iSPN_1NNeuron iSPN_1 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+2 : Memory status: 47% freeAdding gap junctions.
+connectNetworkGapJunctionsLOCAL
+Finding node local gap junctions...
+cconnectNetworkSynapses12 : Memory status: 47% freeAdding external (cortical, thalamic) input from Dopamine-network/input-spikes.hdf5
+13 : Memory status: 47% free
+Adding somatic recordings
+3 : Memory status: 47% freeRRunning simulation for 3.0 s
+ : Memory status: 47% free
+Adding somatic recordings
+0 : Memory status: 47% free
+Running simulation for 3.0 s
+1% done. Elapsed: 16.8 s, estimated time left: 1665.8 s
+2% done. Elapsed: 35.2 s, estimated time left: 1725.2 s
+3% done. Elapsed: 49.2 s, estimated time left: 1591.9 s
+4% done. Elapsed: 61.5 s, estimated time left: 1476.8 s
+5% done. Elapsed: 72.8 s, estimated time left: 1382.3 s
+6% done. Elapsed: 85.1 s, estimated time left: 1333.7 s
+7% done. Elapsed: 98.5 s, estimated time left: 1308.5 s
+8% done. Elapsed: 110.6 s, estimated time left: 1272.4 s
+9% done. Elapsed: 123.1 s, estimated time left: 1244.7 s
+10% done. Elapsed: 136.5 s, estimated time left: 1228.5 s
+11% done. Elapsed: 148.9 s, estimated time left: 1204.7 s
+12% done. Elapsed: 162.0 s, estimated time left: 1188.0 s
+13% done. Elapsed: 175.0 s, estimated time left: 1171.2 s

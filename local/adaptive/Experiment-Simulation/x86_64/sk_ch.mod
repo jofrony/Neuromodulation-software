@@ -1,0 +1,1 @@
+../../../../../../BasalGangliaData/mod-ptr-files//sk_ch.mod

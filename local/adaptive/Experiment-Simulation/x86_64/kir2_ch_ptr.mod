@@ -1,0 +1,1 @@
+../../../../../../BasalGangliaData/mod-ptr-files//kir2_ch_ptr.mod

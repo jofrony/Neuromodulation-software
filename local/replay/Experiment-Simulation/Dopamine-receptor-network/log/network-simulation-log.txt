@@ -1,0 +1,133 @@
+Using networkFile: Dopamine-receptor-network/network-synapses.hdf5
+Using inputFile: Dopamine-receptor-network/input-spikes.hdf5
+Using logFile: Dopamine-receptor-network/log/network-simulation-log.txt
+Worker 0 : Loading network from Dopamine-receptor-network/network-synapses.hdf5
+Loading config file Dopamine-receptor-network/network-config.json
+Worker 0 : Loading network from Dopamine-receptor-network/network-synapses.hdf5
+Loading config file Dopamine-receptor-network/network-config.json
+2 : Memory status: 44% free
+Distributing neurons.
+Setup neurons
+Node 1 - cell 1 dSPN_2
+Neuron dSPN_2 resting voltage = -87
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 4 dSPN_0NNeuron dSPN_0 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 8 iSPN_3
+Neuron iSPN_3 resting voltage = -83
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 12 dSPN_0
+Neuron dSPN_0 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 16 iSPN_1
+Neuron iSPN_1 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 20 iSPN_0
+NeurAAdding gap junctions.
+connectNetworkGapJunctionsLOCAL
+Finding node local gap junctions...cconnectNetworkSynapses13 : Memory status: 43% freeAAdding external (cortical, thalamic) input from Dopamine-receptor-network/input-spikes.hdf51 : Memory status: 43% free
+Adding somatic recordings
+1 : Memory status: 43% free
+RRunning simulation for 3.0 sSSimulation done.SSimulation run time: 1377.0 sWWriting spike times to Dopamine-receptor-network/simulation/network-output-spikes-DA-network-level1.txt
+left: 1531.7 s
+2% done. Elapsed: 32.0 s, estimated time left: 1566.2 s
+3% done. Elapsed: 48.5 s, estimated time left: 1569.7 s
+4% done. Elapsed: 63.5 s, estimated time left: 1523.1 s
+5% done. Elapsed: 80.5 s, estimated time left: 1530.0 s
+6% done. Elapsed: 94.0 s, estimated time left: 1472.8 s
+7% done. Elapsed: 107.0 s, estimated time left: 1421.4 s
+8% done. Elapsed: 120.9 s, estimated time left: 1390.0 s
+9% done. Elapsed: 134.5 s, estimated time left: 1360.0 s
+10% done. Elapsed: 148.7 s, estimated time left: 1337.9 s
+11% done. Elapsed: 161.9 s, estimated time left: 1309.9 s
+12% done. Elapsed: 175.4 s, estimated time left: 1286.2 s
+13% done. Elapsed: 189.0 s, estimated time left: 1264.6 s
+14% done. Elapsed: 201.9 s, estimated time left: 1240.0 s
+15% done. Elapsed: 214.9 s, estimated time left: 1217.8 s
+16% done. Elapsed: 229.1 s, estimated time left: 1202.8 s
+17% done. Elapsed: 241.8 s, estimated time left: 1180.5 s
+18% done. Elapsed: 255.5 s, estimated time left: 1164.1 s
+19% done. Elapsed: 270.1 s, estimated time left: 1151.6 s
+20% done. Elapsed: 283.5 s, estimated time left: 1134.0 s
+21% done. Elapsed: 297.4 s, estimated time left: 1118.8 s
+22% done. Elapsed: 311.2 s, estimated time left: 1103.5 s
+23% done. Elapsed: 325.7 s, estimated time left: 1090.4 s
+24% done. Elapsed: 339.4 s, estimated time left: 1074.9 s
+25% done. Elapsed: 353.6 s, estimated time left: 1060.9 s
+26% done. Elapsed: 367.7 s, estimated time left: 1046.5 s
+27% done. Elapsed: 381.4 s, estimated time left: 1031.1 s
+28% done. Elapsed: 395.2 s, estimated time left: 1016.3 s
+29% done. Elapsed: 408.9 s, estimated time left: 1001.1 s
+30% done. Elapsed: 423.2 s, estimated time left: 987.5 s
+31% done. Elapsed: 436.8 s, estimated time left: 972.3 s
+32% done. Elapsed: 451.0 s, estimated time left: 958.5 s
+33% done. Elapsed: 463.9 s, estimated time left: 941.8 s
+34% done. Elapsed: 478.5 s, estimated time left: 928.9 s
+35% done. Elapsed: 492.9 s, estimated time left: 915.4 s
+36% done. Elapsed: 506.7 s, estimated time left: 900.8 s
+37% done. Elapsed: 519.7 s, estimated time left: 884.8 s
+38% done. Elapsed: 533.5 s, estimated time left: 870.5 s
+39% done. Elapsed: 547.2 s, estimated time left: 855.9 s
+40% done. Elapsed: 560.6 s, estimated time left: 840.9 s
+41% done. Elapsed: 575.0 s, estimated time left: 827.4 s
+42% done. Elapsed: 588.5 s, estimated time left: 812.6 s
+43% done. Elapsed: 602.4 s, estimated time left: 798.5 s
+44% done. Elapsed: 615.7 s, estimated time left: 783.7 s
+45% done. Elapsed: 628.8 s, estimated time left: 768.5 s
+46% done. Elapsed: 641.3 s, estimated time left: 752.9 s
+47% done. Elapsed: 653.7 s, estimated time left: 737.2 s
+48% done. Elapsed: 667.3 s, estimated time left: 722.9 s
+49% done. Elapsed: 680.1 s, estimated time left: 707.9 s
+50% done. Elapsed: 694.8 s, estimated time left: 694.8 s
+51% done. Elapsed: 707.8 s, estimated time left: 680.1 s
+52% done. Elapsed: 720.8 s, estimated time left: 665.3 s
+53% done. Elapsed: 734.8 s, estimated time left: 651.6 s
+54% done. Elapsed: 749.0 s, estimated time left: 638.0 s
+55% done. Elapsed: 763.1 s, estimated time left: 624.4 s
+56% done. Elapsed: 776.6 s, estimated time left: 610.1 s
+57% done. Elapsed: 790.3 s, estimated time left: 596.2 s
+58% done. Elapsed: 803.5 s, estimated time left: 581.9 s
+59% done. Elapsed: 816.9 s, estimated time left: 567.7 s
+60% done. Elapsed: 830.9 s, estimated time left: 553.9 s
+61% done. Elapsed: 845.9 s, estimated time left: 540.8 s
+62% done. Elapsed: 858.9 s, estimated time left: 526.4 s
+63% done. Elapsed: 872.3 s, estimated time left: 512.3 s
+64% done. Elapsed: 886.2 s, estimated time left: 498.5 s
+65% done. Elapsed: 899.8 s, estimated time left: 484.5 s
+66% done. Elapsed: 913.5 s, estimated time left: 470.6 s
+67% done. Elapsed: 927.5 s, estimated time left: 456.8 s
+68% done. Elapsed: 940.2 s, estimated time left: 442.5 s
+69% done. Elapsed: 952.8 s, estimated time left: 428.1 s
+70% done. Elapsed: 967.7 s, estimated time left: 414.7 s
+71% done. Elapsed: 982.4 s, estimated time left: 401.2 s
+72% done. Elapsed: 996.3 s, estimated time left: 387.4 s
+73% done. Elapsed: 1009.8 s, estimated time left: 373.5 s
+74% done. Elapsed: 1023.4 s, estimated time left: 359.6 s
+75% done. Elapsed: 1037.0 s, estimated time left: 345.7 s
+76% done. Elapsed: 1050.7 s, estimated time left: 331.8 s
+77% done. Elapsed: 1064.1 s, estimated time left: 317.8 s
+78% done. Elapsed: 1077.7 s, estimated time left: 304.0 s
+79% done. Elapsed: 1092.0 s, estimated time left: 290.3 s
+80% done. Elapsed: 1105.4 s, estimated time left: 276.4 s
+81% done. Elapsed: 1119.4 s, estimated time left: 262.6 s
+82% done. Elapsed: 1133.5 s, estimated time left: 248.8 s
+83% done. Elapsed: 1147.1 s, estimated time left: 235.0 s
+84% done. Elapsed: 1162.1 s, estimated time left: 221.4 s
+85% done. Elapsed: 1174.4 s, estimated time left: 207.2 s
+86% done. Elapsed: 1188.2 s, estimated time left: 193.4 s
+87% done. Elapsed: 1201.8 s, estimated time left: 179.6 s
+88% done. Elapsed: 1215.4 s, estimated time left: 165.7 s
+89% done. Elapsed: 1228.7 s, estimated time left: 151.9 s
+90% done. Elapsed: 1241.2 s, estimated time left: 137.9 s
+91% done. Elapsed: 1253.7 s, estimated time left: 124.0 s
+92% done. Elapsed: 1267.9 s, estimated time left: 110.3 s
+93% done. Elapsed: 1282.1 s, estimated time left: 96.5 s
+94% done. Elapsed: 1296.3 s, estimated time left: 82.7 s
+95% done. Elapsed: 1310.4 s, estimated time left: 69.0 s
+96% done. Elapsed: 1324.6 s, estimated time left: 55.2 s
+97% done. Elapsed: 1336.9 s, estimated time left: 41.3 s
+98% done. Elapsed: 1349.6 s, estimated time left: 27.5 s
+99% done. Elapsed: 1362.7 s, estimated time left: 13.8 s
+Simulation done.
+Simulation run time: 1376.7 s
+Writing spike times to Dopamine-receptor-network/simulation/network-output-spikes-DA-network-level1.txt

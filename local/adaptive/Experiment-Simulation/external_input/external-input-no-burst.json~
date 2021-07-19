@@ -1,0 +1,71 @@
+{
+    "dSPN": {
+	"CorticalBase" : {
+	    "generator" : "poisson",
+	    "type" : "AMPA_NMDA",
+	    "synapseDensity" : "1.15*0.05/(1+exp(-(d-30e-6)/5e-6))",
+	    "frequency" : 1,
+	    "populationUnitCorrelation" : 0.0,
+	    "jitter" : 0.002,
+	    "conductance" : 5e-10,
+	    "modFile": "tmGlut",
+	    "parameterFile": "$DATA/synapses/striatum/M1RH_Analysis_190925.h5-parameters-MS.json",
+            "nInputs" : {
+		"dSPN_0" : 75,
+		"dSPN_1" : 45,
+		"dSPN_2" : 75
+	    }
+	},
+	"CorticalSignal" : {
+	    "generator" : "poisson",
+	    "start" : 2,
+	    "end" : 2.5,
+	    "type" : "AMPA_NMDA",
+	    "synapseDensity" : "0.45*0.05/(1+exp(-(d-30e-6)/5e-6))",
+	    "frequency" : 10,
+	    "populationUnitCorrelation" : 0.0,
+	    "jitter" : 0.002,
+	    "conductance" : 5e-10,
+	    "modFile": "tmGlut",
+	    "parameterFile": "$DATA/synapses/striatum/M1RH_Analysis_190925.h5-parameters-MS.json",
+            "nInputs" : {
+		"dSPN_0" : 25,
+		"dSPN_1" : 30,
+		"dSPN_2" : 30 
+	    }
+	},
+	"Thalamic" : {
+	    "generator" : "poisson",	    
+	    "type" : "AMPA_NMDA",
+	    "synapseDensity" : "0.05*exp(-d/200e-6)",
+	    "frequency" : 1,
+	    "populationUnitCorrelation" : 0.0,
+	    "jitter" : 0.01,
+	    "conductance" : 5e-10,
+	    "modFile": "tmGlut",
+	    "parameterFile":"$DATA/synapses/striatum/TH_Analysis_191001.h5-parameters-MS.json",
+            "nInputs" : {
+		"dSPN_0" : 75,
+		"dSPN_1" : 45,
+		"dSPN_2" : 75
+	    }
+	}	
+    },
+
+    "DopaminergicAxon": {
+	"Cortical" : {
+	    "generator" : "poisson",	    
+	    "type: " : "AMPA_NMDA",
+	    "start" : 1,
+	    "end" : 3,
+	    "synapseDensity": "0.1*(1-exp(-d/200e-6))",	    
+	    "frequency" : 10,
+	    "populationUnitCorrelation" : 0.0,
+	    "jitter" : 0.001,	    
+	    "conductance" : 0,	    
+	    "modFile": "tmGlut",
+	    "parameterFile":"$DATA/synapses/striatum/M1RH_Analysis_190925.h5-parameters-LTS.json"
+	}
+    }
+    
+}
