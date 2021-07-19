@@ -1,0 +1,110 @@
+Switching to atp/2.1.3.
+Switching to cray-libsci/19.06.1.
+Switching to cray-mpich/7.7.8.
+Switching to craype/2.6.0.
+Switching to perftools-base/7.1.0.
+Switching to pmi/5.0.14.
+WARNING: $PYTHONPATH does not agree with $PYTHONPATH_modshare counter. The following directories' usage counters were adjusted to match. Note that this may mean that module unloading may not work correctly.
+ /opt/cray/llm/21.4.629-7.0.2.1_2.57__g8cae6ef.ari/lib64/python
+NEURON -- VERSION 7.7.2-1-g83ebf037 nrn-7.7 (83ebf037) 2019-07-31
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2018
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ mechanisms-ispn//bk.mod mechanisms-ispn//cadyn.mod mechanisms-ispn//cal12.mod mechanisms-ispn//cal13.mod mechanisms-ispn//caldyn.mod mechanisms-ispn//can.mod mechanisms-ispn//caq.mod mechanisms-ispn//car.mod mechanisms-ispn//cat32.mod mechanisms-ispn//cat33.mod mechanisms-ispn//concACh.mod mechanisms-ispn//concDA.mod mechanisms-ispn//Im.mod mechanisms-ispn//kaf.mod mechanisms-ispn//kas.mod mechanisms-ispn//kdr.mod mechanisms-ispn//kir.mod mechanisms-ispn//naf.mod mechanisms-ispn//NO.mod mechanisms-ispn//sk.mod mechanisms-ispn//tmgabaa.mod mechanisms-ispn//tmglut_M1RH_D1.mod mechanisms-ispn//tmglut.mod mechanisms-ispn//vecevent.mod
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+/pdc/vol/anaconda/2019.03/py37/lib/python3.7/site-packages/bluepyopt/ephys/simulators.py:75: UserWarning: Unable to find Neuron hoc shared library in /pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/lib/python/neuron, not disabling banner
+  'not disabling banner' % nrnpy_path)
+>>> 

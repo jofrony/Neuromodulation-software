@@ -1,0 +1,922 @@
+[
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.109762700785465
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6430378732744839
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5411053504286575
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5179532731987587
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5847309598677809
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5583576452266624
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.47503488450507697
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.8283546001564159
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.38546510420041175
+            }
+      ],
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.0766883037651556
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6583450076165329
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5115579679011617
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5272178244375729
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6851193276585321
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.32841442327915477
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.33485171988061624
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6540436794880652
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.3330479382191752
+            }
+      ],
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.15563135018997
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6740024296493639
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6914473368931056
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6196634256866894
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5922958724505863
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6122116705145821
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.34730977034757327
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.7779842042655047
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.057341314963618564
+            }
+      ],
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.1859232185634294
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5632751109163572
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.37356752467083776
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.38182411142121586
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6135450058163373
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5382178811917006
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6858058078942486
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.7806354193743141
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.29956265501356477
+            }
+      ],
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.1307139741703471
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6495429618542548
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6845226944291285
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.3033553191766214
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5212888753395438
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.4194814855077526
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.562564473232908
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.8119625105081869
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.34887036548971323
+            }
+      ],
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.192929519474386
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6447370693839907
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5569901311583365
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5869814483249655
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5935198014438593
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.4302338710157511
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.47585784235392375
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.7959378165493702
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.3976058343599848
+            }
+      ],
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.0438162730431972
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5934853975811899
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5221126010822204
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6503411862445206
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5855788726677684
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.3118720576852484
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.3914499506205712
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6606137570459801
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.22870803133990125
+            }
+      ],
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.0257234898665777
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6408136813840454
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5864039668408906
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5533533956173229
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5460726060549397
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6624043440489655
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5619973079624978
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6671473848751529
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.3274320187346602
+            }
+      ],
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.0605040900474796
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6947517911619008
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.31226161569899236
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5932688407669892
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5212847317548296
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.458778093657432
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.4056699682750547
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.7854851775417615
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.20979546092730572
+            }
+      ],
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.19896686088797
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5842182110986496
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5957555100149161
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.42262890258369645
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6830895082429906
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6113722824177075
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.505056022065636
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.6682283760624846
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.24227750855025573
+            }
+      ]
+]

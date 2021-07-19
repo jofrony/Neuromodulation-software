@@ -1,0 +1,70 @@
+Creating x86_64 directory for .o files.
+
+/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN
+mechanisms-fsn//bk.mod mechanisms-fsn//cadyn.mod mechanisms-fsn//can.mod mechanisms-fsn//caq.mod mechanisms-fsn//car.mod mechanisms-fsn//kaf.mod mechanisms-fsn//kas.mod mechanisms-fsn//kdr.mod mechanisms-fsn//kir.mod mechanisms-fsn//naf.mod mechanisms-fsn//sk.mod mechanisms-fsn//tmgabaa.mod mechanisms-fsn//tmglut_M1RH_D1.mod mechanisms-fsn//tmglut.mod mechanisms-fsn//vecevent.mod
+bk.mod cadyn.mod can.mod caq.mod car.mod kaf.mod kas.mod kdr.mod kir.mod naf.mod sk.mod tmgabaa.mod tmglut_M1RH_D1.mod tmglut.mod vecevent.mod
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl bk
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl cadyn
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl can
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl caq
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c bk.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c cadyn.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c can.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c caq.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl car
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl kaf
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c car.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c kaf.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl kas
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c kas.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl kdr
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c kdr.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl kir
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c kir.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl naf
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl sk
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c naf.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl tmgabaa
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c sk.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c tmgabaa.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl tmglut_M1RH_D1
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c tmglut_M1RH_D1.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl tmglut
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c tmglut.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl vecevent
+Notice: ARTIFICIAL_CELL is a synonym for POINT_PROCESS which hints that it
+only affects and is affected by discrete events. As such it is not
+located in a section and is not associated with an integrator
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c vecevent.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c mod_func.c
+/pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/libtool --tag=CC --mode=link CC  -g -O2    -o special /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/nrnmain.o /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/ivocmain.o /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/nvkludge.o bk.o cadyn.o can.o caq.o car.o kaf.o kas.o kdr.o kir.o naf.o sk.o tmgabaa.o tmglut_M1RH_D1.o tmglut.o vecevent.o mod_func.o  -L/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib -lnrnoc -loc -lnrniv -livoc -loc -lneuron_gnu -lscopmath -lsparse13 -lsundials -lnrnmpi -lmeschach -livos     -lnrnpython -L/pdc/vol/anaconda/2019.03/py37/lib -lpython3.7m -lpthread -ldl -lutil -lrt  -R/pdc/vol/anaconda/2019.03/py37/lib      -lm
+libtool: link: CC -g -O2 -o special /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/nrnmain.o /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/ivocmain.o /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/nvkludge.o bk.o cadyn.o can.o caq.o car.o kaf.o kas.o kdr.o kir.o naf.o sk.o tmgabaa.o tmglut_M1RH_D1.o tmglut.o vecevent.o mod_func.o   -L/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libnrnoc.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libnrniv.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libivoc.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/liboc.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libneuron_gnu.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libscopmath.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libsparse13.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libsundials.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libnrnmpi.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libmeschach.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libivos.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libnrnpython.so -L/pdc/vol/anaconda/2019.03/py37/lib -lpython3.7m -lpthread -ldl -lutil -lrt -lm -Wl,-rpath -Wl,/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib -Wl,-rpath -Wl,/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib -Wl,-rpath -Wl,/pdc/vol/anaconda/2019.03/py37/lib
+Successfully created x86_64/special
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments
+Network_simulate.py called through nrniv, fixing arguments

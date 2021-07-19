@@ -1,0 +1,372 @@
+Creating x86_64 directory for .o files.
+
+/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN
+mechanisms-fsn//bk.mod mechanisms-fsn//cadyn.mod mechanisms-fsn//can.mod mechanisms-fsn//caq.mod mechanisms-fsn//car.mod mechanisms-fsn//kaf.mod mechanisms-fsn//kas.mod mechanisms-fsn//kdr.mod mechanisms-fsn//kir.mod mechanisms-fsn//naf.mod mechanisms-fsn//sk.mod mechanisms-fsn//tmgabaa.mod mechanisms-fsn//tmglut_M1RH_D1.mod mechanisms-fsn//tmglut.mod mechanisms-fsn//vecevent.mod
+bk.mod cadyn.mod can.mod caq.mod car.mod kaf.mod kas.mod kdr.mod kir.mod naf.mod sk.mod tmgabaa.mod tmglut_M1RH_D1.mod tmglut.mod vecevent.mod
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl bk
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl cadyn
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl can
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl caq
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c cadyn.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c bk.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c can.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c caq.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl car
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl kaf
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c car.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl kas
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c kaf.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c kas.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl kdr
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c kdr.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl kir
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c kir.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl naf
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl sk
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl tmgabaa
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c sk.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c tmgabaa.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c naf.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl tmglut_M1RH_D1
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl tmglut
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c tmglut_M1RH_D1.c
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c tmglut.c
+/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/bin/nocmodl vecevent
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c mod_func.c
+Notice: ARTIFICIAL_CELL is a synonym for POINT_PROCESS which hints that it
+only affects and is affected by discrete events. As such it is not
+located in a section and is not associated with an integrator
+cc -DHAVE_CONFIG_H -I. -I.. -I/pdc/vol/neuron/cle7.0/7.7-py37/include/nrn -I/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib     -D_Float128=__float128  -c vecevent.c
+/pdc/vol/neuron/cle7.0/7.7-py37/share/nrn/libtool --tag=CC --mode=link CC  -g -O2    -o special /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/nrnmain.o /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/ivocmain.o /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/nvkludge.o bk.o cadyn.o can.o caq.o car.o kaf.o kas.o kdr.o kir.o naf.o sk.o tmgabaa.o tmglut_M1RH_D1.o tmglut.o vecevent.o mod_func.o  -L/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib -lnrnoc -loc -lnrniv -livoc -loc -lneuron_gnu -lscopmath -lsparse13 -lsundials -lnrnmpi -lmeschach -livos     -lnrnpython -L/pdc/vol/anaconda/2019.03/py37/lib -lpython3.7m -lpthread -ldl -lutil -lrt  -R/pdc/vol/anaconda/2019.03/py37/lib      -lm
+libtool: link: CC -g -O2 -o special /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/nrnmain.o /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/ivocmain.o /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/nvkludge.o bk.o cadyn.o can.o caq.o car.o kaf.o kas.o kdr.o kir.o naf.o sk.o tmgabaa.o tmglut_M1RH_D1.o tmglut.o vecevent.o mod_func.o   -L/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libnrnoc.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libnrniv.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libivoc.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/liboc.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libneuron_gnu.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libscopmath.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libsparse13.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libsundials.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libnrnmpi.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libmeschach.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libivos.so /pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib/libnrnpython.so -L/pdc/vol/anaconda/2019.03/py37/lib -lpython3.7m -lpthread -ldl -lutil -lrt -lm -Wl,-rpath -Wl,/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib -Wl,-rpath -Wl,/pdc/vol/neuron/cle7.0/7.7-py37/x86_64/lib -Wl,-rpath -Wl,/pdc/vol/anaconda/2019.03/py37/lib
+Successfully created x86_64/special
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758461236953735
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75846219062805
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75859260559082
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758492469787598
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758623838424683
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758484601974487
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758493423461914
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758389711380005
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758511781692505
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758296012878418
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758567571640015
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75856113433838
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758445501327515
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758522033691406
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758503913879395
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758442640304565
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75859045982361
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758535146713257
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75849962234497
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75854754447937
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75849747657776
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75855779647827
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758524417877197
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75867486000061
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758540868759155
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758545398712158
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758635759353638
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75859761238098
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.75851583480835
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758543014526367
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.758607387542725
+Network_simulate.py called through nrniv, fixing arguments
+Models passed   100
+Seconds = 54.16126847267151
+numprocs=32
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.14937114715576
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.14941167831421
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.14910078048706
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.14938235282898
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149528741836548
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149381399154663
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149554014205933
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.1495258808136
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149516582489014
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149291276931763
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149364233016968
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.1492977142334
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149357557296753
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149439573287964
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149510145187378
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.14937686920166
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.14946746826172
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149556636810303
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149309635162354
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149551153182983
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149360418319702
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149609327316284
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149365663528442
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149487257003784
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.14943838119507
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149702787399292
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149385452270508
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.14941120147705
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149415493011475
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.14950466156006
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 31.149391174316406
+Network_simulate.py called through nrniv, fixing arguments
+Models passed   106
+Seconds = 54.0993971824646
+numprocs=32
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.64120364189148
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641507387161255
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641143083572388
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.640972137451172
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.64162302017212
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641485452651978
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641584396362305
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641658067703247
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.64149785041809
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641438484191895
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641307830810547
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641629695892334
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.64159893989563
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641389846801758
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641559839248657
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641616582870483
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641441106796265
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641520261764526
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641267776489258
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.64133906364441
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.64127230644226
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641515016555786
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641371726989746
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.64150595664978
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641536235809326
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641676902770996
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641669273376465
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641542434692383
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641384840011597
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.64129948616028
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.641568899154663
+Network_simulate.py called through nrniv, fixing arguments
+Models passed   125
+Seconds = 55.914209604263306
+numprocs=32
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577802896499634
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577702522277832
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.57768750190735
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577749729156494
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577670097351074
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577662706375122
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577903270721436
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577810049057007
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.57782530784607
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577786922454834
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577605485916138
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577752351760864
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577751636505127
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577747583389282
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577797174453735
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.57779812812805
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577815055847168
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.57768940925598
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577826261520386
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.57773232460022
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577802419662476
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577812910079956
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577738761901855
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577735900878906
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577751874923706
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577741622924805
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577756643295288
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.57776951789856
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577749252319336
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.57775115966797
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.577710151672363
+Network_simulate.py called through nrniv, fixing arguments
+Models passed   125
+Seconds = 56.128488302230835
+numprocs=32
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843597173690796
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843616247177124
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843601942062378
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843506574630737
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84357762336731
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843607664108276
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843526363372803
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843737363815308
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843497037887573
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84379005432129
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843676805496216
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84376859664917
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843756914138794
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.8436222076416
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843719720840454
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84374713897705
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84371328353882
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843740701675415
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843630075454712
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84371018409729
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843727350234985
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84369921684265
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843693733215332
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843635320663452
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843575716018677
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843748807907104
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84363293647766
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84366726875305
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.84373140335083
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843640327453613
+Network_simulate.py called through nrniv, fixing arguments
+Seconds = 30.843770265579224
+Network_simulate.py called through nrniv, fixing arguments
+Models passed   120
+Seconds = 55.89036178588867
+numprocs=32

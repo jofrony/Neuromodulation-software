@@ -1,0 +1,246 @@
+Switching to atp/2.1.3.
+Switching to cray-libsci/19.06.1.
+Switching to cray-mpich/7.7.8.
+Switching to craype/2.6.0.
+Switching to perftools-base/7.1.0.
+Switching to pmi/5.0.14.
+WARNING: $PYTHONPATH does not agree with $PYTHONPATH_modshare counter. The following directories' usage counters were adjusted to match. Note that this may mean that module unloading may not work correctly.
+ /opt/cray/llm/21.4.629-7.0.2.1_2.57__g8cae6ef.ari/lib64/python
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+srun: error: nid02010: tasks 0-31: Exited with exit code 2
+srun: Terminating job step 6895562.0
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+srun: error: nid02010: tasks 0-31: Exited with exit code 2
+srun: Terminating job step 6895562.1
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+srun: error: nid02010: tasks 0-31: Exited with exit code 2
+srun: Terminating job step 6895562.2
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+srun: error: nid02010: tasks 0-31: Exited with exit code 2
+srun: Terminating job step 6895562.3
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+srun: error: nid02010: tasks 0-31: Exited with exit code 2
+srun: Terminating job step 6895562.4
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+srun: error: nid02010: tasks 0-31: Exited with exit code 2
+srun: Terminating job step 6895562.5
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+slurmstepd: error: execve(): x86_64/special: Text file busy
+srun: error: nid02010: tasks 0-31: Exited with exit code 26
+srun: Terminating job step 6895562.6

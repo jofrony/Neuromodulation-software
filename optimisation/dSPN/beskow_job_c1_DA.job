@@ -1,0 +1,46 @@
+#!/bin/bash -l
+#SBATCH -t 2:00:00
+#SBATCH --time-min=1:50:00
+#SBATCH -J DA_c1_dspn
+#SBATCH -A 2020-5-636
+#SBATCH -o save/output-neuromodulation.o%j
+#SBATCH -e save/error-neuromodulation.e%j
+#SBATCH --nodes=1
+
+let N_WORKERS="$SLURM_NNODES * 32"
+
+HOME=/cfs/klemming/nobackup/"${USER:0:1}"/$USER/BasalGangliaExperiments/Neuromodulation/optimisation/dSPN
+
+ 
+module sw PrgEnv-cray PrgEnv-intel/6.0.5
+module add neuron/7.7-py37
+module load mpi4py/3.0.3-INTEL-19.0
+
+export CRAYPE_LINK_TYPE=dynamic
+export CRAY_ROOTFS=DSL
+
+
+# Remove "special" old directory
+#rm -r x86_64
+#nrnivmodl mechanisms-dspn/
+
+export PATH=/cfs/klemming/nobackup/"${USER:0:1}"/$USER/local/beskow/bin:$PATH
+export PYTHONPATH=/cfs/klemming/nobackup/"${USER:0:1}"/$USER/local/beskow/lib/python3.7/site-packages:$PYTHONPATH
+
+seed=12345
+
+filepath=$HOME/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20210212/dopamine/ID_0
+
+srun -n $N_WORKERS x86_64/special -mpi -python $HOME/optimise_dspn.py $filepath $seed
+
+filepath=$HOME/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20210212/dopamine/ID_1
+
+srun -n $N_WORKERS x86_64/special -mpi -python $HOME/optimise_dspn.py $filepath $seed
+
+filepath=$HOME/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20210212/dopamine/ID_2
+
+srun -n $N_WORKERS x86_64/special -mpi -python $HOME/optimise_dspn.py $filepath $seed
+
+filepath=$HOME/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20210212/dopamine/ID_3
+
+srun -n $N_WORKERS x86_64/special -mpi -python $HOME/optimise_dspn.py $filepath $seed

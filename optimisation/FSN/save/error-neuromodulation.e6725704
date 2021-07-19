@@ -1,0 +1,849 @@
+Switching to atp/2.1.3.
+Switching to cray-libsci/19.06.1.
+Switching to cray-mpich/7.7.8.
+Switching to craype/2.6.0.
+Switching to perftools-base/7.1.0.
+Switching to pmi/5.0.14.
+rm: cannot remove 'x86_64/tmglut_M1RH_D1.c': No such file or directory
+rm: cannot remove 'x86_64/tmglut.c': No such file or directory
+rm: cannot remove 'x86_64/sk.c': No such file or directory
+rm: cannot remove 'x86_64/tmgabaa.o': No such file or directory
+rm: cannot remove 'x86_64/sk.o': No such file or directory
+rm: cannot remove 'x86_64/cadyn.mod': No such file or directory
+rm: cannot remove 'x86_64/tmgabaa.c': No such file or directory
+rm: cannot remove 'x86_64/tmglut.o': No such file or directory
+rm: cannot remove 'x86_64/kir.c': No such file or directory
+rm: cannot remove 'x86_64/car.o': No such file or directory
+rm: cannot remove 'x86_64/tmgabaa.mod': No such file or directory
+rm: cannot remove 'x86_64/mod_func.c': No such file or directory
+rm: cannot remove 'x86_64/caq.c': No such file or directory
+rm: cannot remove 'x86_64/.libs': No such file or directory
+rm: cannot remove 'x86_64/vecevent.mod': No such file or directory
+ls: cannot access 'mechanisms-fsn//*.inc': No such file or directory
+ln: failed to create symbolic link './bk.mod': File exists
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+slurmstepd: error: execve(): x86_64/special: No such file or directory
+srun: error: nid00889: tasks 0-31: Exited with exit code 2
+srun: Terminating job step 6725704.0
+NEURON -- VERSION 7.7.2-1-g83ebf037 nrn-7.7 (83ebf037) 2019-07-31
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2018
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ mechanisms-fsn//bk.mod mechanisms-fsn//cadyn.mod mechanisms-fsn//can.mod mechanisms-fsn//caq.mod mechanisms-fsn//car.mod mechanisms-fsn//kaf.mod mechanisms-fsn//kas.mod mechanisms-fsn//kdr.mod mechanisms-fsn//kir.mod mechanisms-fsn//naf.mod mechanisms-fsn//sk.mod mechanisms-fsn//tmgabaa.mod mechanisms-fsn//tmglut_M1RH_D1.mod mechanisms-fsn//tmglut.mod mechanisms-fsn//vecevent.mod
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_1/modulation_setup.json'
+
+NEURON -- VERSION 7.7.2-1-g83ebf037 nrn-7.7 (83ebf037) 2019-07-31
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2018
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ mechanisms-fsn//bk.mod mechanisms-fsn//cadyn.mod mechanisms-fsn//can.mod mechanisms-fsn//caq.mod mechanisms-fsn//car.mod mechanisms-fsn//kaf.mod mechanisms-fsn//kas.mod mechanisms-fsn//kdr.mod mechanisms-fsn//kir.mod mechanisms-fsn//naf.mod mechanisms-fsn//sk.mod mechanisms-fsn//tmgabaa.mod mechanisms-fsn//tmglut_M1RH_D1.mod mechanisms-fsn//tmglut.mod mechanisms-fsn//vecevent.mod
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_2/modulation_setup.json'
+
+NEURON -- VERSION 7.7.2-1-g83ebf037 nrn-7.7 (83ebf037) 2019-07-31
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2018
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ mechanisms-fsn//bk.mod mechanisms-fsn//cadyn.mod mechanisms-fsn//can.mod mechanisms-fsn//caq.mod mechanisms-fsn//car.mod mechanisms-fsn//kaf.mod mechanisms-fsn//kas.mod mechanisms-fsn//kdr.mod mechanisms-fsn//kir.mod mechanisms-fsn//naf.mod mechanisms-fsn//sk.mod mechanisms-fsn//tmgabaa.mod mechanisms-fsn//tmglut_M1RH_D1.mod mechanisms-fsn//tmglut.mod mechanisms-fsn//vecevent.mod
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_3/modulation_setup.json'
+
+NEURON -- VERSION 7.7.2-1-g83ebf037 nrn-7.7 (83ebf037) 2019-07-31
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2018
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ mechanisms-fsn//bk.mod mechanisms-fsn//cadyn.mod mechanisms-fsn//can.mod mechanisms-fsn//caq.mod mechanisms-fsn//car.mod mechanisms-fsn//kaf.mod mechanisms-fsn//kas.mod mechanisms-fsn//kdr.mod mechanisms-fsn//kir.mod mechanisms-fsn//naf.mod mechanisms-fsn//sk.mod mechanisms-fsn//tmgabaa.mod mechanisms-fsn//tmglut_M1RH_D1.mod mechanisms-fsn//tmglut.mod mechanisms-fsn//vecevent.mod
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+
+>>> Traceback (most recent call last):
+  File "/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/optimise_fsn_seclamp.py", line 17, in <module>
+    Opt.setup_load()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/lib/python3.7/site-packages/neuromodulation-0.0.1-py3.7.egg/neuromodulation/optimise.py", line 39, in setup_load
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation/optimisation/FSN/fsn/str-fs-e161205_FS1-mMTC180800A-IDB-v20210210/tmgaba/dopamine/ID_4/modulation_setup.json'
+

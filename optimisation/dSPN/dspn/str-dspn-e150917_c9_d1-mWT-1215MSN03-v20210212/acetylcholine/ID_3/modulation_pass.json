@@ -1,0 +1,114 @@
+[
+      [
+            {
+                  "dist_type": "uniform",
+                  "mech": "naf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_naf",
+                  "sectionlist": "all",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 1.0922958724505865
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kaf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kaf",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": -2.194708237135446
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.8236548851737867
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.5559684085310095
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "basal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.35734131496361854
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kaf",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kaf",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": -0.5533108295041611
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "kir",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_kir",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.9043696643500143
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal12",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal12",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.4658647759962094
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "cal13",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_cal13",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.40582224484185075
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "can",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_can",
+                  "sectionlist": "somatic",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.8048467378868434
+            },
+            {
+                  "dist_type": "uniform",
+                  "mech": "Im",
+                  "mech_param": "maxModB",
+                  "param_name": "maxModB_Im",
+                  "sectionlist": "axonal",
+                  "type": "range",
+                  "name": "modulationB",
+                  "value": 0.18246013288661944
+            }
+      ]
+]

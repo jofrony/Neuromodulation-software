@@ -1,0 +1,163 @@
+﻿    def synaptic_amplitude_pass_analysis(self,criteria):
+
+        criteria['parameters'].update({'dt' : self.dt})
+
+        for c_urrent in self.currents[1:-1]:
+
+            result = sc.synaptic_amplitude_decrease_percentage(criteria,[self.currents[-1],c_urrent])
+            self.synaptic_amp_result.append([result['zscore'],result['percentage']])
+        index = np.where((np.transpose(self.synaptic_amp_result)[0] < criteria['selection']['threshold']) & (np.transpose(self.synaptic_amp_result)[1] < 100))
+
+        self.synaptic_amp_passing_analysis = np.take(np.array(self.currents[1:-1]),index,axis=0)[0]
+
+        for current_pass in self.synaptic_amp_passing_analysis:
+
+            self.synaptic_amp_passing_analysis_traces.append(sf.synaptic_amplitude(current_pass,criteria['parameters']))
+
+
+    def synaptic_amplitude_passing_traces(self,criteria):
+
+        criteria.update({'dt' : self.dt})
+
+        if not(isinstance(self.current_modulation_pass[0],np.ndarray)):
+
+            self.current_modulation_pass = np.array([self.current_modulation_pass])
+
+        for current in self.current_modulation_pass:
+
+            self.synaptic_amp_passing_traces.append(sf.synaptic_amplitude(current,criteria))
+
+    def synaptic_amplitude_all_traces(self,criteria):
+
+        criteria.update({'dt' : self.dt})
+
+        for current in self.currents[1:-1]:
+
+            self.synaptic_amp_all_traces.append(sf.synaptic_amplitude(volt,criteria))
+
+    def calculate_percentage(self):
+
+        percentage = list()
+
+        for c in self.synaptic_amp_passing_analysis_traces:
+
+            per_cent = ((c-self.synaptic_amp_control[0])/self.synaptic_amp_control)*1e2 + 1e2
+
+            percentage.append(per_cent)
+
+        return percentage                         
+
+
+    def plot_all_traces_current(self,title=None,correct_c=False,skip=0,filename=None, save=False):
+
+        method = getattr(mf,self.modulation_setup['modulation_function']['function'])
+        time_series = method(self.modulation_setup['modulation_function'])
+
+       
+        plt.figure(figsize=(9,3))
+        plt.subplot(121)
+        
+        time = self.currents[0][int(skip/self.dt):]
+        
+        for current in self.currents[1:]:
+
+
+            if correct_c:
+                correct = np.mean(np.array(current)[int(100/self.dt):int(200/self.dt)])*1e3
+            else:
+                correct = 0
+
+            current = current[int(skip/self.dt):]*1e3 - correct
+            plt.plot(time,current)
+   
+        plt.title(title)
+        plt.ylabel("current pA)")
+        plt.xlabel("Time (ms)")
+        plt.legend()
+
+        plt.subplot(122)
+        plt.plot(self.modulation_setup['modulation_function']["time_step_array"],time_series)
+        plt.title(title)
+        plt.xlabel("Time (ms)")
+
+        if save:
+            plt.savefig(pathlib.Path(self.dir_path) / filename, dpi=None, facecolor='w', edgecolor='w',
+                        orientation='portrait', papertype=None, format=None,
+                        transparent=False, bbox_inches=None, pad_inches=0.1,
+                        frameon=None, metadata=None)
+        else:
+            plt.show()
+
+
+    def plot_control_current(self,title=None,filename=None,correct_c=False, save=False,skip=0):
+
+        method = getattr(mf,self.modulation_setup['modulation_function']['function'])
+        time_series = method(self.modulation_setup['modulation_function'])
+
+        plt.figure(figsize=(9,3))
+
+
+        if correct_c:
+            correct = np.mean(np.array(self.currents[-1])[int(100/self.dt):int(200/self.dt)])*1e3
+        else:
+            correct = 0
+
+
+        current = self.currents[-1][int(skip/self.dt):]*1e3 - correct
+        plt.plot(self.currents[0][int(skip/self.dt):],current,label="Control")
+        plt.title(title)
+        plt.ylabel("current pA)")
+        plt.xlabel("Time (ms)")
+        plt.legend()
+
+        if save:
+            plt.savefig(pathlib.Path(self.dir_path) / filename, dpi=None, facecolor='w', edgecolor='w',
+                        orientation='portrait', papertype=None, format=None,
+                        transparent=False, bbox_inches=None, pad_inches=0.1,
+                        frameon=None, metadata=None)
+        else:
+            plt.show()
+
+
+    def plot_validated_traces_with_control_current(self,correct_c = False, title=None,filename=None, save=False,skip=0):
+
+        plt.figure(figsize=(9,3))
+
+        time = self.currents[0]
+
+        if self.current_modulation_pass is None or not(isinstance(self.current_modulation_pass[0],np.ndarray)):
+
+            self.current_modulation_pass = np.array([self.current_modulation_pass])
+
+        for current in self.current_modulation_pass:
+
+            if correct_c:
+                correct = np.mean(np.array(current)[int(100/self.dt):int(200/self.dt)])
+            else:
+                correct = 0
+
+            current = (current - correct)*1e3
+            plt.plot(time[int(skip/self.dt):],current[int(skip/self.dt):])
+
+        if correct_c:
+            correct = np.mean(np.array(self.currents[-1])[int(100/self.dt):int(200/self.dt)])
+        else:
+            correct = 0
+        current = (self.currents[-1]-correct)*1e3
+        plt.plot(self.currents[0][int(skip/self.dt):],current[int(skip/self.dt):],label="Control",c='black')
+        plt.title(title)
+        plt.ylabel("current (pA)")
+        plt.xlabel("Time (ms)")
+        plt.legend()
+
+
+
+        if save:
+            plt.savefig(pathlib.Path(self.dir_path) / filename, dpi=None, facecolor='w', edgecolor='w',
+                        orientation='portrait', papertype=None, format=None,
+                        transparent=False, bbox_inches=None, pad_inches=0.1,
+                        frameon=None, metadata=None)
+        else:
+            plt.show()
+
+        
