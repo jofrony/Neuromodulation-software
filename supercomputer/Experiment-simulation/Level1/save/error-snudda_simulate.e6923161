@@ -1,0 +1,816 @@
+WARNING: $PATH does not agree with $PATH_modshare counter. The following directories' usage counters were adjusted to match. Note that this may mean that module unloading may not work correctly.
+ /opt/cray/pe/cce/10.0.1/binutils/cross/x86_64-aarch64/aarch64-linux-gnu/../bin
+NEURON -- VERSION 8.0.0 HEAD (429d11ef) 2021-04-30
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2021
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ "mechanisms-modulation//bk_fs.mod" "mechanisms-modulation//bk_ms.mod" "mechanisms-modulation//cadyn_fs.mod" "mechanisms-modulation//cadyn_ms.mod" "mechanisms-modulation//cal12_ms.mod" "mechanisms-modulation//cal13_ms.mod" "mechanisms-modulation//caldyn_ms.mod" "mechanisms-modulation//can_fs.mod" "mechanisms-modulation//can_ms.mod" "mechanisms-modulation//caq_fs.mod" "mechanisms-modulation//caq_ms.mod" "mechanisms-modulation//car_fs.mod" "mechanisms-modulation//car_ms.mod" "mechanisms-modulation//cat32_ms.mod" "mechanisms-modulation//cat33_ms.mod" "mechanisms-modulation//concACh_ms.mod" "mechanisms-modulation//concDA_ms.mod" "mechanisms-modulation//Im_ms.mod" "mechanisms-modulation//kaf_fs.mod" "mechanisms-modulation//kaf_ms.mod" "mechanisms-modulation//kas_fs.mod" "mechanisms-modulation//kas_ms.mod" "mechanisms-modulation//kdr_fs.mod" "mechanisms-modulation//kdr_ms.mod" "mechanisms-modulation//kir_fs.mod" "mechanisms-modulation//kir_ms.mod" "mechanisms-modulation//naf_fs.mod" "mechanisms-modulation//naf_ms.mod" "mechanisms-modulation//par_ggap.mod" "mechanisms-modulation//sk_fs.mod" "mechanisms-modulation//sk_ms.mod" "mechanisms-modulation//tmgabaa.mod" "mechanisms-modulation//tmglut_M1RH_D1.mod" "mechanisms-modulation//tmglut.mod" "mechanisms-modulation//vecevent.mod"
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+Traceback (most recent call last):
+  File "simulation.py", line 53, in <module>
+    sim.neuromodulation_network_wide()
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 69, in neuromodulation_network_wide
+    self.modulate_synapses(modulation=type_modulation, synapses=modulation_items['receptors'],
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 122, in modulate_synapses
+    self.modulate_receptor(syn=syn, modulation=modulation)
+  File "/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/python3.8/site-packages/snudda/neuromodulation/neuromodulation.py", line 126, in modulate_receptor
+    setattr(syn, "mod" + modulation, 1)
+LookupError: 'modACh' is not a defined hoc variable name.
+>>> 
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** STEP 6923161.0 ON nid01930 CANCELLED AT 2021-05-28T11:46:45 ***
+slurmstepd: error: *** JOB 6923161 ON nid01930 CANCELLED AT 2021-05-28T11:46:45 ***
+srun: forcing job termination

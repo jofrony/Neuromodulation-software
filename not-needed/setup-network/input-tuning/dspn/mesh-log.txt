@@ -1,0 +1,28 @@
+Found old cache file (data/mesh/InputTestMesh.obj-100-cache.pickle), ignoring.
+Running in serial
+Voxel mask: 13 x 13 x 13
+Processing x = 0
+Processing x = 1
+Processing x = 2
+Processing x = 3
+Processing x = 4
+Processing x = 5
+Processing x = 6
+Processing x = 7
+Processing x = 8
+Processing x = 9
+Processing x = 10
+Processing x = 11
+Processing x = 12
+Fraction of border voxels: 0.0
+Saving mesh cache file data/mesh/InputTestMesh.obj-100-cache.pickle
+Calculation time: 0.19101709900132846 s
+Setup voxel list
+Setup place neurons
+Update padding mask
+Regenerating new random pool
+Setup done
+Inner voxel bin volume: 1.0 mm³
+Placed 5 in 0.00038035399848013185 s
+Placed 5 in 0.0005634110020764638 s
+Placed 5 in 0.0011150020000059158 s

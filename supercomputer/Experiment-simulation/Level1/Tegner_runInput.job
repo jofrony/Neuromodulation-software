@@ -1,0 +1,49 @@
+#!/bin/bash -l
+#SBATCH -t 1:00:00
+#SBATCH --time-min=0:59:00
+#SBATCH -J DOPAMINE_LEVEL1
+#SBATCH -A 2020-5-636
+#SBATCH -o save/output-runSnudda.o%j
+#SBATCH -e save/error-runSnudda.e%j
+#SBATCH --nodes=2-5
+#SBATCH --ntasks-per-node=24
+
+
+module load snic-env
+L=/cfs/klemming/nobackup/${USER:0:1}/$USER/local/$SNIC_RESOURCE
+SNUDDA_DIR=/cfs/klemming/nobackup/${USER:0:1}/$USER/Snudda/snudda
+
+__conda_setup="$('$L/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+    
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "$L/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "$L/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="$L/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+
+echo "This is the conda we have:"
+echo `which conda`
+conda activate
+
+module load gcc/9.2.0
+module load openmpi/4.1-gcc-9.2
+export IPYTHONDIR="$L/.ipython"
+rm -r $IPYTHONDIR
+
+export IPYTHON_PROFILE=mpi
+
+echo "This is my path:"
+echo $PATH
+
+module load gcc/9.2.0
+module load openmpi/4.1-gcc-9.2
+
+./Tegner_runInput.sh
+
+
+

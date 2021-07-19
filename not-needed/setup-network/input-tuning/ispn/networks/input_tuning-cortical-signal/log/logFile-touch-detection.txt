@@ -1,0 +1,29 @@
+Using hdf5 driver version: latest
+Memory: 10267787264 free, 16595992576 total
+Each hyper voxel has 100 x 100 x 100 voxels
+Touch detecting all volumes
+Loading from networks/input_tuning-cortical-signal/network-config.json
+Reading random seed from config file: 4249834610
+Reading prototype for: ispn_0
+Reading prototype for: ispn_1
+Reading prototype for: ispn_2
+Reading prototype for: ispn_3
+Loading connectivity information
+Memory: 10267787264 free, 16595992576 total
+Reading positions from file: networks/input_tuning-cortical-signal/network-neuron-positions.hdf5
+Memory: 10267271168 free, 16595992576 total
+Position file read.
+setupParallel called without dView, aborting.
+Work history file: networks/input_tuning-cortical-signal/log/network-detect-worklog.hdf5
+Writing metadata to work history file
+Write neuron data to file
+No d_view specified, running distribute neurons in serial
+distribute_neurons: neuronIdx = [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19] (n=20)
+distribute_neurons: calculating min and max coords
+Finding minMax coord in volumeID = None
+294 hyper voxels in total
+Pre allocation done.
+Calculated distribution of neurons: 0.21187479000036546 seconds
+Writing neuron distribution history to file
+setupProcessHyperVoxelStateHistory: Creating new work history.
+No connections specified in connectivity_distribution.

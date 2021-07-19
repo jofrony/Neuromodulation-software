@@ -1,0 +1,24 @@
+Using networkFile: dopamine-trial-network/network-synapses.hdf5
+Using inputFile: dopamine-trial-network/input-spikes.hdf5
+Using logFile: dopamine-trial-network/log/network-simulation-log.txt
+Worker 0 : Loading network from dopamine-trial-network/network-synapses.hdf5
+Loading config file dopamine-trial-network/network-config.json
+0 : Memory status: 48% free
+Distributing neurons.
+Setup neurons
+Node 3 - cell 3 dSPN_1
+Neuron dSPN_2 resting voltage = -87
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 4 dSPN_0NNeuron dSPN_0 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 8 iSPN_3
+Neuron iSPN_3 resting voltage = -83
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 12 dSPN_0
+Neuron dSPN_0 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 16 iSPN_1
+NNeuron iSPN_2 resting voltage = -86
+!!! Popping extra segment from neuron -- temp fix!
+3 : Memory status: 48% Neuraadd_gpcr_synapse : Empty gpcr_info for []. Check if the gpcr synapses are correctly defined for all cell types
+dd_gpcr_synapse : Empty gpcr_info for []. Check if the gpcr synapses are correctly defined for all cell types

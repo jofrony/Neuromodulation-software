@@ -1,0 +1,10 @@
+{
+    "InputDuration": 3.0,
+    "MaxTime": 9.0,
+    "FrequencyRange": [
+        1.0,
+        2.0,
+        3.0
+    ],
+    "NeuronsDirectory": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum"
+}

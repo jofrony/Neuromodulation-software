@@ -1,0 +1,22 @@
+This is the conda we have:
+/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/condabin/conda
+This is my path:
+/pdc/vol/openmpi/4.1.0/gcc/9.2.0/bin:/pdc/vol/gcc/9.2.0/bin:/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/bin:/usr/heimdal/bin:/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/condabin:/usr/heimdal/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/thinlinc/bin
+PATH: /usr/heimdal/bin:/pdc/vol/openmpi/4.1.0/gcc/9.2.0/bin:/pdc/vol/gcc/9.2.0/bin:/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/bin:/usr/heimdal/bin:/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/condabin:/usr/heimdal/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/thinlinc/bin
+IPYTHONDIR: /cfs/klemming/nobackup/j/jofn/local/tegner/.ipython
+PYTHONPATH: 
+LD_LIBRARY_PATH: /pdc/vol/openmpi/4.1.0/gcc/9.2.0/lib:/pdc/vol/gcc/9.2.0/lib64
+>>>>>> Main process starting ipcluster
+
+SLURM_NODELIST = t02n[01,35,45-46,48]
+>>> NWORKERS  119
+>>> Starting ipcluster Wed Jun  2 22:46:32 CEST 2021
+>>> Wait 120s to allow engines to start
+Setting up inputs, assuming input.json exists
+Writing input spikes to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level5//pdc_network/input-spikes.hdf5
+Writing spikes to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level5//pdc_network/input-spikes.hdf5
+
+Program run time: 425.8s
+numprocs=1
+Wed Jun  2 22:55:42 CEST 2021
+JOB END Wed Jun 2 22:55:42 CEST 2021 start_time_network_connect.txt

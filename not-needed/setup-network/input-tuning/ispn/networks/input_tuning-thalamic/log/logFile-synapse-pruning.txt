@@ -1,0 +1,26 @@
+Log file networks/input_tuning-thalamic/log/logFile-synapse-pruning.txt created.
+Random seed: None
+Using hdf5 driver sec2, latest version
+Opening work history file: networks/input_tuning-thalamic/log/network-detect-worklog.hdf5
+Reading random seed from config file: 2537338634
+Using default scratch path: networks/input_tuning-thalamic/temp
+Checking for merge file networks/input_tuning-thalamic/network-putative-synapses-MERGED.hdf5
+Running merge in serial
+Doing big_merge_loopup for synapses
+[0, 521, 1048576, 0.75]
+(0, 521, 20971520, 0.75)
+Setting up out file networks/input_tuning-thalamic/network-putative-synapses-MERGED.hdf5
+Saving morphology in HDF5 file: /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e151123_c1_D2-mWT-P270-09-v20210215/WT-P270-09-15ak-cor-res3.swc
+Saving morphology in HDF5 file: /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e150908_c4_D2-m51-5-DE-v20210215/51-5-DE-cor-rep-ax-res3.swc
+Saving morphology in HDF5 file: /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e150917_c11_D2-mWT-MSN1-v20210215/WT-MSN1-cor-rep-ax-res3.swc
+Saving morphology in HDF5 file: /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e160118_c10_D2-m46-3-DE-v20210215/46-3-DE-cor-rep-ax-res3.swc
+Doing big_merge_loopup for gapJunctions
+[0, 521, 1048576, 0.75]
+(0, 521, 20971520, 0.75)
+pruneSynapses called.
+pruneSynapses: No synapses skipping pruning
+pruneSynapses called.
+pruneSynapses: No gapJunctions skipping pruning
+No output file created, no synapses exist?
+Creating symbolic link to MERGE file instead
+networks/input_tuning-thalamic/network-synapses.hdf5 -> network-putative-synapses-MERGED.hdf5

@@ -1,0 +1,58 @@
+{
+  "RandomSeed": {
+    "init": 3055318106,
+    "place": 3792388973,
+    "detect": 3698631189,
+    "project": 644564404,
+    "prune": 2537338634,
+    "input": 2866366511,
+    "simulate": 2929406810
+  },
+  "Volume": {
+    "InputTest": {
+      "type": "mesh",
+      "dMin": 1.5e-05,
+      "meshFile": "data/mesh/InputTestMesh.obj",
+      "meshBinWidth": 0.0001
+    }
+  },
+  "Connectivity": {},
+  "Neurons": {
+    "ispn_0": {
+      "morphology": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e151123_c1_D2-mWT-P270-09-v20210215/WT-P270-09-15ak-cor-res3.swc",
+      "parameters": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e151123_c1_D2-mWT-P270-09-v20210215/parameters.json",
+      "mechanisms": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e151123_c1_D2-mWT-P270-09-v20210215/mechanisms.json",
+      "num": 5,
+      "volumeID": "InputTest",
+      "rotationMode": "random",
+      "hoc": null
+    },
+    "ispn_1": {
+      "morphology": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e150908_c4_D2-m51-5-DE-v20210215/51-5-DE-cor-rep-ax-res3.swc",
+      "parameters": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e150908_c4_D2-m51-5-DE-v20210215/parameters.json",
+      "mechanisms": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e150908_c4_D2-m51-5-DE-v20210215/mechanisms.json",
+      "num": 5,
+      "volumeID": "InputTest",
+      "rotationMode": "random",
+      "hoc": null
+    },
+    "ispn_2": {
+      "morphology": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e150917_c11_D2-mWT-MSN1-v20210215/WT-MSN1-cor-rep-ax-res3.swc",
+      "parameters": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e150917_c11_D2-mWT-MSN1-v20210215/parameters.json",
+      "mechanisms": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e150917_c11_D2-mWT-MSN1-v20210215/mechanisms.json",
+      "num": 5,
+      "volumeID": "InputTest",
+      "rotationMode": "random",
+      "hoc": null
+    },
+    "ispn_3": {
+      "morphology": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e160118_c10_D2-m46-3-DE-v20210215/46-3-DE-cor-rep-ax-res3.swc",
+      "parameters": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e160118_c10_D2-m46-3-DE-v20210215/parameters.json",
+      "mechanisms": "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation/single_cell_models/HBP-2021Q1/striatum/ispn/str-ispn-e160118_c10_D2-m46-3-DE-v20210215/mechanisms.json",
+      "num": 5,
+      "volumeID": "InputTest",
+      "rotationMode": "random",
+      "hoc": null
+    }
+  }
+}

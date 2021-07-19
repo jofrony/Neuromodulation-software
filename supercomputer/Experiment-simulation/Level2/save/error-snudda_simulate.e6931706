@@ -1,0 +1,717 @@
+Translating bk_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/bk_ms.c
+Translating bk_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/bk_fs.c
+Translating cadyn_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/cadyn_fs.c
+Thread Safe
+Thread Safe
+Thread Safe
+Translating cal13_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/cal13_ms.c
+Translating cadyn_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/cadyn_ms.c
+Translating cal12_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/cal12_ms.c
+Thread Safe
+Thread Safe
+Thread Safe
+Translating can_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/can_ms.c
+Translating caldyn_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/caldyn_ms.c
+Translating can_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/can_fs.c
+Thread Safe
+Thread Safe
+Thread Safe
+Translating caq_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/caq_fs.c
+Translating caq_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/caq_ms.c
+Translating car_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/car_fs.c
+Thread Safe
+Thread Safe
+Translating car_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/car_ms.c
+Translating cat32_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/cat32_ms.c
+Thread Safe
+Thread Safe
+Translating cat33_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/cat33_ms.c
+Thread Safe
+Translating concACh_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/concACh_ms.c
+Translating concDA_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/concDA_ms.c
+Thread Safe
+Thread Safe
+Thread Safe
+Translating Im_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/Im_ms.c
+Translating kaf_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/kaf_fs.c
+Translating kaf_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/kaf_ms.c
+Thread Safe
+Thread Safe
+Thread Safe
+Translating kas_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/kas_fs.c
+Translating kas_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/kas_ms.c
+Translating kdr_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/kdr_fs.c
+Thread Safe
+Thread Safe
+Translating kdr_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/kdr_ms.c
+Thread Safe
+Translating kir_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/kir_fs.c
+Thread Safe
+Translating kir_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/kir_ms.c
+Thread Safe
+Translating naf_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/naf_fs.c
+Translating naf_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/naf_ms.c
+Thread Safe
+Translating par_ggap.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/par_ggap.c
+Thread Safe
+Thread Safe
+Thread Safe
+Translating sk_fs.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/sk_fs.c
+Translating sk_ms.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/sk_ms.c
+Translating tmgabaa.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/tmgabaa.c
+Thread Safe
+Thread Safe
+Translating tmglut_M1RH_D1.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/tmglut_M1RH_D1.c
+Notice: VERBATIM blocks are not thread safe
+Notice: scop_random is not thread safe
+Translating tmglut.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/tmglut.c
+Translating vecevent.mod into /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level2/x86_64/vecevent.c
+Thread Safe
+Thread Safe
+Thread Safe
+NEURON -- VERSION 8.0.0 HEAD (429d11ef) 2021-04-30
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2021
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ "mechanisms-modulation//bk_fs.mod" "mechanisms-modulation//bk_ms.mod" "mechanisms-modulation//cadyn_fs.mod" "mechanisms-modulation//cadyn_ms.mod" "mechanisms-modulation//cal12_ms.mod" "mechanisms-modulation//cal13_ms.mod" "mechanisms-modulation//caldyn_ms.mod" "mechanisms-modulation//can_fs.mod" "mechanisms-modulation//can_ms.mod" "mechanisms-modulation//caq_fs.mod" "mechanisms-modulation//caq_ms.mod" "mechanisms-modulation//car_fs.mod" "mechanisms-modulation//car_ms.mod" "mechanisms-modulation//cat32_ms.mod" "mechanisms-modulation//cat33_ms.mod" "mechanisms-modulation//concACh_ms.mod" "mechanisms-modulation//concDA_ms.mod" "mechanisms-modulation//Im_ms.mod" "mechanisms-modulation//kaf_fs.mod" "mechanisms-modulation//kaf_ms.mod" "mechanisms-modulation//kas_fs.mod" "mechanisms-modulation//kas_ms.mod" "mechanisms-modulation//kdr_fs.mod" "mechanisms-modulation//kdr_ms.mod" "mechanisms-modulation//kir_fs.mod" "mechanisms-modulation//kir_ms.mod" "mechanisms-modulation//naf_fs.mod" "mechanisms-modulation//naf_ms.mod" "mechanisms-modulation//par_ggap.mod" "mechanisms-modulation//sk_fs.mod" "mechanisms-modulation//sk_ms.mod" "mechanisms-modulation//tmgabaa.mod" "mechanisms-modulation//tmglut_M1RH_D1.mod" "mechanisms-modulation//tmglut.mod" "mechanisms-modulation//vecevent.mod"
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 

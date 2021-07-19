@@ -1,0 +1,74 @@
+This is the conda we have:
+/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/condabin/conda
+This is my path:
+/pdc/vol/openmpi/4.1.0/gcc/9.2.0/bin:/pdc/vol/gcc/9.2.0/bin:/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/bin:/usr/heimdal/bin:/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/condabin:/usr/heimdal/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/thinlinc/bin
+PATH: /usr/heimdal/bin:/pdc/vol/openmpi/4.1.0/gcc/9.2.0/bin:/pdc/vol/gcc/9.2.0/bin:/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/bin:/usr/heimdal/bin:/cfs/klemming/nobackup/j/jofn/local/tegner/miniconda3/condabin:/usr/heimdal/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/thinlinc/bin
+IPYTHONDIR: /cfs/klemming/nobackup/j/jofn/local/tegner/.ipython
+PYTHONPATH: 
+LD_LIBRARY_PATH: /pdc/vol/openmpi/4.1.0/gcc/9.2.0/lib:/pdc/vol/gcc/9.2.0/lib64
+>>>>>> Main process starting ipcluster
+
+>>> Init: Thu Jun 3 01:23:09 CEST 2021
+['/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//network-wide-code/project_wide/init_neuromod.py', '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//network_parameters/neurons', '/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing/pdc_network/']
+/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/network_parameters/neurons
+Using cube for striatum
+Adding neurons: FSN from dir /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/network_parameters/neurons/striatum/fs
+Adding neurons: dSPN from dir /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/network_parameters/neurons/striatum/dspn
+Adding neurons: iSPN from dir /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/network_parameters/neurons/striatum/ispn
+Writing /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing/pdc_network//network-config.json
+SLURM_NODELIST = t02n[02,09,13,42-43]
+>>> NWORKERS  119
+>>> Starting ipcluster Thu Jun  3 01:23:11 CEST 2021
+>>> Wait 120s to allow engines to start
+>>> Place: Thu Jun 3 01:25:11 CEST 2021
+Placing neurons
+Network path: /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network
+Creating missing directory /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network/log
+Created directory /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network/log
+Using hdf5 version: latest
+Parsing configuration file /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network/network-config.json
+Reading random seed from config file: 3048105090
+Using mesh_bin_width 5.0062034803075795e-05
+Cube or slice mesh, switching to serial processing.
+Using dimensions from config file
+Adding: 20 FSN_0
+Adding: 20 FSN_1
+Adding: 20 FSN_2
+Adding: 20 FSN_3
+Adding: 20 FSN_4
+Adding: 1666 dSPN_0
+Adding: 1667 dSPN_1
+Adding: 1667 dSPN_2
+Adding: 1250 iSPN_0
+Adding: 1250 iSPN_1
+Adding: 1250 iSPN_2
+Adding: 1250 iSPN_3
+Re-sorting the neuron IDs
+Writing data to HDF5 file: /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network/network-neuron-positions.hdf5
+
+Program run time: 16.9s
+>>> Detect: Thu Jun 3 01:25:31 CEST 2021
+Touch detection
+Network path: /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network
+Creating missing directory /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network/voxels
+Created directory /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network/voxels
+importing SnuddaDetect from snudda.detect.detect on engine(s)
+Suppressing printouts for hyper voxels that complete in < 100 seconds.
+
+Program run time: 114.0s
+>>> Prune: Thu Jun 3 01:27:28 CEST 2021
+Prune synapses
+Network path: /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network
+importing SnuddaPrune from snudda.detect.prune on engine(s)
+prune_synapses_parallel (3193714/77429470 synapses, 4.1% kept): 29.8s
+prune_synapses_parallel (390/1084 gapJunctions, 36.0% kept): 18.4s
+
+Program run time: 130.8s
+Setting up inputs, assuming input.json exists
+Writing input spikes to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network/input-spikes.hdf5
+Writing spikes to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Dopamine-Timing//pdc_network/input-spikes.hdf5
+
+Program run time: 402.2s
+numprocs=1
+Thu Jun  3 01:36:27 CEST 2021
+JOB END Thu Jun 3 01:36:27 CEST 2021 start_time_network_connect.txt

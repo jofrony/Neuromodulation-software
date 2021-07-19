@@ -1,0 +1,61 @@
+#!/bin/bash -l
+#SBATCH -t 15:0:00
+#SBATCH --time-min=14:59:00
+#SBATCH -J DA_ACH_ALL
+#SBATCH -A 2020-5-449
+#SBATCH -o save/output-snudda_simulate.o%j
+#SBATCH -e save/error-snudda_simulate.e%j
+#SBATCH --nodes=10-20
+#SBATCH --ntasks-per-node=32
+
+let N_WORKERS="$SLURM_NNODES * 32"
+
+HOME=/cfs/klemming/nobackup/"${USER:0:1}"/$USER/Snudda
+
+SNUDDA_DIR=/cfs/klemming/nobackup/"${USER:0:1}"/$USER/Snudda/snudda
+
+NEUROMODSOFT=/cfs/klemming/nobackup/${USER:0:1}/$USER/BasalGangliaExperiments/Neuromodulation-software/
+LEVELONE=$NEUROMODSOFT/supercomputer/Experiment-simulation/Level3/
+JOBDIR=$DOPAMINELEVELONE/pdc_network
+PROJECT_CODE=$NEUROMODSOFT/network-wide-code/project_wide
+SNUDDA_DIR=/cfs/klemming/nobackup/${USER:0:1}/$USER/Snudda/snudda
+JOBDIR=pdc_network
+
+
+##############
+
+source activate_miniconda.sh
+
+module load snic-env
+
+# --- I have tried with the gnu compiler, and also with the cray compiler
+module swap PrgEnv-cray PrgEnv-gnu
+module unload cray-libsci atp
+export CRAYPE_LINK_TYPE=dynamic
+export CRAY_ROOTFS=DSL
+
+conda activate
+
+
+L=/cfs/klemming/nobackup/${USER:0:1}/$USER/local/$SNIC_RESOURCE
+LM=$L/miniconda3
+LN=$L/neuron
+
+export PATH=$LM/bin:$LN/bin:$PATH
+export LD_LIBRARY_PATH=$MPICH_DIR/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=$L/lib/python3.8/site-packages:$PYTHONPATH
+export PYTHONPATH=$LN/lib/python:$LM/lib/python3.8/
+
+rm -r x86_64
+nrnivmodl mechanisms-modulation/
+
+echo 'Running'
+srun -n $N_WORKERS $LEVELONE/x86_64/special -mpi -python simulation.py $LEVELONE/pdc_network $NEUROMODSOFT/network_parameters/modulation/dopamine_alpha_transient.json 3000 "DA-network-level3"
+
+srun -n $N_WORKERS $LEVELONE/x86_64/special -mpi -python  simulation.py $LEVELONE/pdc_network $NEUROMODSOFT/network_parameters/modulation/acetylcholine_alpha_transient.json 3000 "ACh-burst-network-level3"
+
+srun -n $N_WORKERS $LEVELONE/x86_64/special -mpi -python  simulation.py $LEVELONE/pdc_network $NEUROMODSOFT/network_parameters/modulation/acetylcholine_pause.json 3000 "ACh-pause-network-level3"
+
+srun -n $N_WORKERS $LEVELONE/x86_64/special -mpi -python  simulation.py  $LEVELONE/pdc_network $NEUROMODSOFT/network_parameters/modulation/acetylcholine_dopamine_alpha_transient.json 3000 "DA-ACh-burst-network-level3"
+
+srun -n $N_WORKERS $LEVELONE/x86_64/special -mpi -python  simulation.py $LEVELONE/pdc_network $NEUROMODSOFT/network_parameters/modulation/acetylcholine_dopamine_pause_transient.json 3000 "DA-ACh-pause-network-level3"

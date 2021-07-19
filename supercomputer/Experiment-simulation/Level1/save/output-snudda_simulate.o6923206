@@ -1,0 +1,1816 @@
+/cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software/supercomputer/Experiment-simulation/Level1
+Mod files: "mechanisms-modulation/bk_fs.mod" "mechanisms-modulation/bk_ms.mod" "mechanisms-modulation/cadyn_fs.mod" "mechanisms-modulation/cadyn_ms.mod" "mechanisms-modulation/cal12_ms.mod" "mechanisms-modulation/cal13_ms.mod" "mechanisms-modulation/caldyn_ms.mod" "mechanisms-modulation/can_fs.mod" "mechanisms-modulation/can_ms.mod" "mechanisms-modulation/caq_fs.mod" "mechanisms-modulation/caq_ms.mod" "mechanisms-modulation/car_fs.mod" "mechanisms-modulation/car_ms.mod" "mechanisms-modulation/cat32_ms.mod" "mechanisms-modulation/cat33_ms.mod" "mechanisms-modulation/concACh_ms.mod" "mechanisms-modulation/concDA_ms.mod" "mechanisms-modulation/Im_ms.mod" "mechanisms-modulation/kaf_fs.mod" "mechanisms-modulation/kaf_ms.mod" "mechanisms-modulation/kas_fs.mod" "mechanisms-modulation/kas_ms.mod" "mechanisms-modulation/kdr_fs.mod" "mechanisms-modulation/kdr_ms.mod" "mechanisms-modulation/kir_fs.mod" "mechanisms-modulation/kir_ms.mod" "mechanisms-modulation/naf_fs.mod" "mechanisms-modulation/naf_ms.mod" "mechanisms-modulation/par_ggap.mod" "mechanisms-modulation/sk_fs.mod" "mechanisms-modulation/sk_ms.mod" "mechanisms-modulation/tmgabaa.mod" "mechanisms-modulation/tmglut_M1RH_D1.mod" "mechanisms-modulation/tmglut.mod" "mechanisms-modulation/vecevent.mod"
+
+Creating x86_64 directory for .o files.
+
+COBJS=''
+ -> [32mCompiling[0m mod_func.c
+ -> [32mNMODL[0m ../mechanisms-modulation//bk_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//bk_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//cadyn_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//cadyn_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//cal12_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//cal13_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//caldyn_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//can_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//can_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//caq_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//caq_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//car_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//car_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//cat32_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//cat33_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//concACh_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//concDA_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//Im_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//kaf_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//kaf_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//kas_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//kas_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//kdr_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//kdr_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//kir_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//kir_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//naf_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//naf_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//par_ggap.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//sk_fs.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//sk_ms.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//tmgabaa.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//tmglut_M1RH_D1.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//tmglut.mod
+ -> [32mNMODL[0m ../mechanisms-modulation//vecevent.mod
+Notice: ARTIFICIAL_CELL is a synonym for POINT_PROCESS which hints that it
+only affects and is affected by discrete events. As such it is not
+located in a section and is not associated with an integrator
+ -> [32mCompiling[0m bk_fs.c
+ -> [32mCompiling[0m bk_ms.c
+ -> [32mCompiling[0m cadyn_fs.c
+ -> [32mCompiling[0m cadyn_ms.c
+ -> [32mCompiling[0m cal12_ms.c
+ -> [32mCompiling[0m cal13_ms.c
+ -> [32mCompiling[0m caldyn_ms.c
+ -> [32mCompiling[0m can_fs.c
+ -> [32mCompiling[0m can_ms.c
+ -> [32mCompiling[0m caq_fs.c
+ -> [32mCompiling[0m caq_ms.c
+ -> [32mCompiling[0m car_fs.c
+ -> [32mCompiling[0m car_ms.c
+ -> [32mCompiling[0m cat32_ms.c
+ -> [32mCompiling[0m cat33_ms.c
+ -> [32mCompiling[0m concACh_ms.c
+ -> [32mCompiling[0m concDA_ms.c
+ -> [32mCompiling[0m Im_ms.c
+ -> [32mCompiling[0m kaf_fs.c
+ -> [32mCompiling[0m kaf_ms.c
+ -> [32mCompiling[0m kas_fs.c
+ -> [32mCompiling[0m kas_ms.c
+ -> [32mCompiling[0m kdr_fs.c
+ -> [32mCompiling[0m kdr_ms.c
+ -> [32mCompiling[0m kir_fs.c
+ -> [32mCompiling[0m kir_ms.c
+ -> [32mCompiling[0m naf_fs.c
+ -> [32mCompiling[0m naf_ms.c
+ -> [32mCompiling[0m par_ggap.c
+ -> [32mCompiling[0m sk_fs.c
+ -> [32mCompiling[0m sk_ms.c
+ -> [32mCompiling[0m tmgabaa.c
+ -> [32mCompiling[0m tmglut_M1RH_D1.c
+ -> [32mCompiling[0m tmglut.c
+ -> [32mCompiling[0m vecevent.c
+ => [32mLINKING[0m shared library ./libnrnmech.so
+ => [32mLINKING[0m executable ./special LDFLAGS are:    -lreadline /cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/libncurses.so -Wl,-rpath,/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib /cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/libform.so -Wl,-rpath,/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib /cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib/libpython3.8.so -Wl,-rpath,/cfs/klemming/nobackup/j/jofn/local/beskow/miniconda3/lib
+Successfully created x86_64/special
+Running
+numprocs=288
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+1% done. Elapsed: 2.2 s, estimated time left: 213.2 s
+62% done. Elapsed: 107.1 s, estimated time left: 65.6 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Program run time: 211.12940266449004
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 169.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 166.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 166.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 166.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 169.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 166.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 169.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 169.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 169.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 169.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 166.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.3 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.8 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.0 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 167.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.1 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.5 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.4 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.2 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.6 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.9 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
+Network_simulate.py called through nrniv, fixing arguments
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Loading 10100 neurons with 3191317 synapses and 369 gap junctions
+Running simulation for 0.01 s
+Simulation run time: 168.7 s
+Writing spike times to /cfs/klemming/nobackup/j/jofn/BasalGangliaExperiments/Neuromodulation-software//supercomputer/Experiment-simulation/Level1//pdc_network/simulation/network-output-spikes-ACh-burst-network-level1.txt
