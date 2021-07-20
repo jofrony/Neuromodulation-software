@@ -8,6 +8,6 @@ In the folder, examples, there are simulations using Snudda (both replay and ada
 
 Follow instructions in the notebooks (jupyter).
 
-# Contact
+### Contact
 
 Open an issue if you are having problems with the simulatons
