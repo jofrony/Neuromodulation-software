@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//naf_fs.mod

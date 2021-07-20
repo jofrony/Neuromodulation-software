@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//it_lts.mod

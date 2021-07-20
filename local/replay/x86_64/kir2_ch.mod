@@ -1,1 +1,0 @@
-../mechanisms-modulation-ptr/kir2_ch.mod

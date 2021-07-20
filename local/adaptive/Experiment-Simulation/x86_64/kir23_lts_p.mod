@@ -1,1 +1,0 @@
-../mechanisms-ptr//kir23_lts_p.mod

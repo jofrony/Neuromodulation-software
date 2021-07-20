@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//tmglut_ptr.mod

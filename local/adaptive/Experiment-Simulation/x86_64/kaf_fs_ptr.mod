@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//kaf_fs_ptr.mod

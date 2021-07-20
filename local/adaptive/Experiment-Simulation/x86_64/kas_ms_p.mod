@@ -1,1 +1,0 @@
-../mechanisms-ptr//kas_ms_p.mod

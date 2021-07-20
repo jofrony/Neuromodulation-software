@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//kdrbca1_lts.mod

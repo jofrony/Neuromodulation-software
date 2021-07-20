@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//car_fs.mod

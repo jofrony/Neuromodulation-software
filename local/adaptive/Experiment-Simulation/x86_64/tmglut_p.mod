@@ -1,1 +1,0 @@
-../mechanisms-ptr//tmglut_p.mod

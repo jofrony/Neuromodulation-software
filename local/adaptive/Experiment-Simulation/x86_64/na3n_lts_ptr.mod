@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//na3n_lts_ptr.mod

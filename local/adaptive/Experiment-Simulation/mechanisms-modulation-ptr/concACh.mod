@@ -19,7 +19,7 @@ PARAMETER {
 	tau1 = 400 (ms) <1e-9,1e9>
 	tau2 = 300 (ms) <1e-9,1e9>
 	concentration = 4.5e-5 (nM)
-	amplitude = 1			      
+	amplitude = 0.25e-4			      
 }
 
 ASSIGNED {

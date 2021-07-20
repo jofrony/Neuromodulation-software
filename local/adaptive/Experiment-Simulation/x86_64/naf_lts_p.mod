@@ -1,1 +1,0 @@
-../mechanisms-ptr//naf_lts_p.mod

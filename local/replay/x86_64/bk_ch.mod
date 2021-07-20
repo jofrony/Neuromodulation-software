@@ -1,1 +1,0 @@
-../mechanisms-modulation-ptr/bk_ch.mod

@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//par_ggap.mod

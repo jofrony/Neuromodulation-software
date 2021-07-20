@@ -1,15 +1,15 @@
-import neuromodulation.selection_criteria as sc
-import neuromodulation.selection_functions as sf
-from neuromodulation.analysis import optimisationResult
+import neuromodcell.selection_criteria as sc
+import neuromodcell.selection_functions as sf
+from neuromodcell.analysis import OptimisationResult
 import numpy as np
-from neuromodulation.plotting import plot_comparison
+from neuromodcell.plotting import plot_comparison
 import matplotlib.pyplot as plt
 import pathlib
 import os
 import json
-from neuromodulation.modulation_set import NumpyEncoder
+from neuromodcell.modulation_set import NumpyEncoder
 
-class dSPNanalysis(optimisationResult):
+class dSPNanalysis(OptimisationResult):
     
     def __init__(self,dir_path):
 
@@ -156,9 +156,9 @@ class dSPNanalysis(optimisationResult):
 
         return self.final_modulation_result, self.final_modulation_voltage
         
-    def plot_comparison(self,control,control_sim,modulated,modulated_sim, num_models,ylabel,title,x_ticks=tuple(),parameterID=None,save=False,filename=None):
+    def plot_comparison(self,control,control_sim,modulated,modulated_sim, num_models,ylabel,title,x_ticks=tuple(),width=None,height=None,parameterID=None,save=False,filename=None):
 
-        plot_comparison(control=control,control_sim=control_sim,modulated=modulated,modulated_sim=modulated_sim, num_models=num_models,ylabel=ylabel,title=title,x_ticks=x_ticks,dir_path=self.dir_path,save=save,filename=filename)
+        plot_comparison(control=control,control_sim=control_sim,modulated=modulated,modulated_sim=modulated_sim, num_models=num_models,ylabel=ylabel,width=width,height=height,title=title,x_ticks=x_ticks,dir_path=self.dir_path,save=save,filename=filename)
 
     def plot_chosen_modulation(self):
 
@@ -222,7 +222,7 @@ class dSPNanalysis(optimisationResult):
 
 
         if save:
-            plt.savefig(pathlib.Path(self.dir_path) / filename, dpi=None, facecolor='w', edgecolor='w',
+            plt.savefig(pathlib.Path(self.dir_path) / filename, dpi=300, facecolor='w', edgecolor='w',
                         orientation='portrait', papertype=None, format=None,
                         transparent=False, bbox_inches=None, pad_inches=0.1,
                         frameon=None, metadata=None)

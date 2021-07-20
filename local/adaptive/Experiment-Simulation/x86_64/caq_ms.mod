@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//caq_ms.mod

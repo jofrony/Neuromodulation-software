@@ -1,1 +1,0 @@
-../mechanisms-ptr//naf_fs_p.mod

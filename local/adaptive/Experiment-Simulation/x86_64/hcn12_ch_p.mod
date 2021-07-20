@@ -1,1 +1,0 @@
-../mechanisms-ptr//hcn12_ch_p.mod

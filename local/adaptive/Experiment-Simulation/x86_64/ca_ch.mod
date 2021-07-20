@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//ca_ch.mod

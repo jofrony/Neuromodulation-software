@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//cat33_ms.mod

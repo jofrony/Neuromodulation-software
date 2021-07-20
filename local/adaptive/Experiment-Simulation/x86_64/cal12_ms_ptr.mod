@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//cal12_ms_ptr.mod

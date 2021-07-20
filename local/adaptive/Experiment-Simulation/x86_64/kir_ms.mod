@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//kir_ms.mod

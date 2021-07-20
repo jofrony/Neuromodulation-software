@@ -1,1 +1,0 @@
-../../../../../../BasalGangliaData/mod-ptr-files//cadyn_ms.mod

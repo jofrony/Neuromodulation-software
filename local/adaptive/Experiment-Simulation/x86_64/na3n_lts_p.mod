@@ -1,1 +1,0 @@
-../mechanisms-ptr//na3n_lts_p.mod

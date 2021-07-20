@@ -33,7 +33,7 @@ NEURON {
     RANGE tau1, tau2, e, i, q
     RANGE tau, tauR, tauF, U, u0
     RANGE modDA, maxModDA, levelDA, modACh, maxModACh, levelACh
-    RANGE failRateDA, failRateACh, failRate
+    RANGE failRateA, failRateB, failRate
     NONSPECIFIC_CURRENT i
 }
 
@@ -58,9 +58,9 @@ PARAMETER {
     levelDA = 0
     modACh = 0
     maxModACh = 1 
-    levelACh = 0            
-    failRateACh = 0
-    failRateDA = 0
+    levelACh = 0
+    failRateA = 0
+    failRateB = 0
     failRate = 0
 }
 
@@ -110,7 +110,7 @@ VERBATIM
         return;
 ENDVERBATIM
     }
-    if( urand() > (failRate*(failRateACh*modACh*levelACh + failRateDA*modDA*levelDA))) { 
+    if( urand() > (failRate*failRateB*modACh*levelACh)) { 
       z = z*exp(-(t-tsyn)/tauR)
       z = z + (y*(exp(-(t-tsyn)/tau) - exp(-(t-tsyn)/tauR)) / (tau/tauR - 1) )
       y = y*exp(-(t-tsyn)/tau)
