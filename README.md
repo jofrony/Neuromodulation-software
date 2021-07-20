@@ -1,5 +1,5 @@
 # Neuromodulation-software
-Neuromodulation - optimization and large scale simulations using [Snudda](https://github.com/Hjorthmedh/Snudda).
+Neuromodulation - optimization and large scale simulations using [Snudda](https://github.com/Hjorthmedh/Snudda){:target="_blank"}.
 
 
 # Example simulations
