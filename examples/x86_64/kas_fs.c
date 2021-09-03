@@ -239,7 +239,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_cvode(_mechtype, _ode_count, _ode_map, _ode_spec, _ode_matsol);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 kas_fs /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/x86_64/kas_fs.mod\n");
+ 	ivoc_help("help ?1 kas_fs /home/jofrony/Documents/Repositories/Neuromodulation-software/examples/x86_64/kas_fs.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -519,7 +519,7 @@ _first = 0;
 #endif
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/mechanisms-modulation/kas_fs.mod";
+static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/Neuromodulation-software/examples/mechanisms-modulation-ptr/kas_fs.mod";
 static const char* nmodl_file_text = 
   "TITLE Slowly inactivating A-type potassium current (Kv1.2)\n"
   "\n"
@@ -539,7 +539,7 @@ static const char* nmodl_file_text =
   "									\n"
   "	  Further neuromodulators can be added by for example:\n"
   "          modulationDA = 1 + modDA*(maxModDA-1)\n"
-  "	  modulationB = 1 + modB*(maxModB-1)\n"
+  "	  modulationACh = 1 + modACh*(maxModACh-1)\n"
   "	  ....\n"
   "\n"
   "	  etc. for other neuromodulators\n"
@@ -630,7 +630,7 @@ static const char* nmodl_file_text =
   "\n"
   "Conductance kinetics of m2h type is used [1] with partial inactivation,\n"
   "m2 (a h + (1-a)). Fraction a is set to 0.8, as in [1, Fig.6B]; other\n"
-  "values for a are possible [2] (see also kas_fs.mod in companion code).\n"
+  "values for a are possible [2] (see also kas.mod in companion code).\n"
   "Equation for htau [1] is corrected to match the authors' data [1, Fig.6B]\n"
   "by Alexander Kozlov <akozlov@kth.se>.  Time constants were corrected to\n"
   "body temperature with factor q=3 [1,3].\n"

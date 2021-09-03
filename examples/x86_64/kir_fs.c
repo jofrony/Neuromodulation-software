@@ -230,7 +230,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_cvode(_mechtype, _ode_count, _ode_map, _ode_spec, _ode_matsol);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 kir_fs /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/x86_64/kir_fs.mod\n");
+ 	ivoc_help("help ?1 kir_fs /home/jofrony/Documents/Repositories/Neuromodulation-software/examples/x86_64/kir_fs.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -502,7 +502,7 @@ _first = 0;
 #endif
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/mechanisms-modulation/kir_fs.mod";
+static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/Neuromodulation-software/examples/mechanisms-modulation-ptr/kir_fs.mod";
 static const char* nmodl_file_text = 
   "TITLE Non-inactivating inwardly rectifying potassium current (Kir2.3)\n"
   "\n"
@@ -522,7 +522,7 @@ static const char* nmodl_file_text =
   "									\n"
   "	  Further neuromodulators can be added by for example:\n"
   "          modulationDA = 1 + modDA*(maxModDA-1)\n"
-  "	  modulationB = 1 + modB*(maxModB-1)\n"
+  "	  modulationACh = 1 + modACh*(maxModACh-1)\n"
   "	  ....\n"
   "\n"
   "	  etc. for other neuromodulators\n"

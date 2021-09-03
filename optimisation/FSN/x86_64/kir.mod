@@ -1,1 +1,0 @@
-../mechanisms-fsn//kir.mod

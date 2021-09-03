@@ -303,7 +303,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  pnt_receive_init[_mechtype] = _net_init;
  pnt_receive_size[_mechtype] = 5;
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 tmGabaA /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/x86_64/tmgabaa.mod\n");
+ 	ivoc_help("help ?1 tmGabaA /home/jofrony/Documents/Repositories/Neuromodulation-software/examples/x86_64/tmgabaa.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -617,7 +617,7 @@ _first = 0;
 }
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/mechanisms-modulation/tmgabaa.mod";
+static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/Neuromodulation-software/examples/mechanisms-modulation-ptr/tmgabaa.mod";
 static const char* nmodl_file_text = 
   "TITLE GABA_A synapse with short-term plasticity\n"
   "\n"

@@ -50,7 +50,7 @@ extern double hoc_Exp(double);
 #define maxModACh _p[2]
 #define levelACh _p[3]
 #define ik _p[4]
-#define gIm_ms _p[5]
+#define gIm _p[5]
 #define m _p[6]
 #define ek _p[7]
 #define mInf _p[8]
@@ -126,7 +126,7 @@ extern void hoc_reg_nmodl_filename(int, const char*);
  static HocParmUnits _hoc_parm_units[] = {
  "gbar_Im_ms", "S/cm2",
  "ik_Im_ms", "mA/cm2",
- "gIm_ms_Im_ms", "S/cm2",
+ "gIm_Im_ms", "S/cm2",
  0,0
 };
  static double delta_t = 0.01;
@@ -162,7 +162,7 @@ static void _ode_matsol(_NrnThread*, _Memb_list*, int);
  "levelACh_Im_ms",
  0,
  "ik_Im_ms",
- "gIm_ms_Im_ms",
+ "gIm_Im_ms",
  0,
  "m_Im_ms",
  0,
@@ -226,7 +226,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_cvode(_mechtype, _ode_count, _ode_map, _ode_spec, _ode_matsol);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 Im_ms /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/x86_64/Im_ms.mod\n");
+ 	ivoc_help("help ?1 Im_ms /home/jofrony/Documents/Repositories/Neuromodulation-software/examples/x86_64/Im_ms.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -386,8 +386,8 @@ for (_iml = 0; _iml < _cntml; ++_iml) {
 }
 
 static double _nrn_current(double* _p, Datum* _ppvar, Datum* _thread, _NrnThread* _nt, double _v){double _current=0.;v=_v;{ {
-   gIm_ms = gbar * m * modulationACh ( _threadargs_ ) ;
-   ik = gIm_ms * ( v - ek ) ;
+   gIm = gbar * m * modulationACh ( _threadargs_ ) ;
+   ik = gIm * ( v - ek ) ;
    }
  _current += ik;
 
@@ -502,11 +502,11 @@ _first = 0;
 #endif
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/mechanisms-modulation/Im_ms.mod";
+static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/Neuromodulation-software/examples/mechanisms-modulation-ptr/Im_ms.mod";
 static const char* nmodl_file_text = 
   "COMMENT\n"
   "Mechanism taken from Doron et al., 2017\n"
-  "https://senselab.med.yale.edu/ModelDB/ShowModel.cshtml?model=231427&file=/reproduction/Im_ms.mod#tabs-2\n"
+  "https://senselab.med.yale.edu/ModelDB/ShowModel.cshtml?model=231427&file=/reproduction/Im.mod#tabs-2\n"
   "\n"
   "Reference :     Adams et al. 1982 - M-currents and other potassium currents in bullfrog sympathetic neurones\n"
   "\n"
@@ -543,7 +543,7 @@ static const char* nmodl_file_text =
   "NEURON	{\n"
   "	SUFFIX Im_ms\n"
   "	USEION k READ ek WRITE ik\n"
-  "	RANGE gbar, gIm_ms, ik\n"
+  "	RANGE gbar, gIm, ik\n"
   "        RANGE modACh, maxModACh, levelACh\n"
   "}\n"
   "\n"
@@ -564,7 +564,7 @@ static const char* nmodl_file_text =
   "	v	(mV)\n"
   "	ek	(mV)\n"
   "	ik	(mA/cm2)\n"
-  "	gIm_ms	(S/cm2)\n"
+  "	gIm	(S/cm2)\n"
   "	mInf\n"
   "	mTau\n"
   "	mAlpha\n"
@@ -577,8 +577,8 @@ static const char* nmodl_file_text =
   "\n"
   "BREAKPOINT	{\n"
   "	SOLVE states METHOD cnexp\n"
-  "	gIm_ms = gbar*m*modulationACh()\n"
-  "	ik = gIm_ms*(v-ek)\n"
+  "	gIm = gbar*m*modulationACh()\n"
+  "	ik = gIm*(v-ek)\n"
   "}\n"
   "\n"
   "DERIVATIVE states	{\n"

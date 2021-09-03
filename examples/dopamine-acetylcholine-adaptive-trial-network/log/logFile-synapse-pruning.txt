@@ -84,4 +84,4 @@ Output file already set: dopamine-acetylcholine-adaptive-trial-network/network-s
 prune_synapses: No synapse_file specified for gapJunctions -- none detected?
 Removing temp files from dopamine-acetylcholine-adaptive-trial-network/temp
 Removing temp files from dopamine-acetylcholine-adaptive-trial-network/voxels
-prune synapses and gap junctions: 0.4s
+prune synapses and gap junctions: 0.3s

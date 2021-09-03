@@ -294,7 +294,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_synonym(_mechtype, _ode_synonym);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 ca_ch /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/x86_64/ca_ch.mod\n");
+ 	ivoc_help("help ?1 ca_ch /home/jofrony/Documents/Repositories/Neuromodulation-software/examples/x86_64/ca_ch.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -858,7 +858,7 @@ _first = 0;
 }
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/mechanisms-modulation-ptr/ca_ch.mod";
+static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/Neuromodulation-software/examples/mechanisms-modulation-ptr/ca_ch.mod";
 static const char* nmodl_file_text = 
   ":Migliore file Modify by Maciej Lazarewicz (mailto:mlazarew@gmu.edu) May/16/2001\n"
   "\n"

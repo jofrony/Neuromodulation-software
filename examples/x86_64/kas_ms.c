@@ -236,7 +236,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_cvode(_mechtype, _ode_count, _ode_map, _ode_spec, _ode_matsol);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 kas_ms /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/x86_64/kas_ms.mod\n");
+ 	ivoc_help("help ?1 kas_ms /home/jofrony/Documents/Repositories/Neuromodulation-software/examples/x86_64/kas_ms.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -516,7 +516,7 @@ _first = 0;
 #endif
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/mechanisms-modulation/kas_ms.mod";
+static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/Neuromodulation-software/examples/mechanisms-modulation-ptr/kas_ms.mod";
 static const char* nmodl_file_text = 
   "TITLE Slowly inactivating A-type potassium current (Kv1.2)\n"
   "\n"
@@ -644,7 +644,7 @@ static const char* nmodl_file_text =
   "\n"
   "Conductance kinetics of m2h type is used [1,2] with partial inactivation,\n"
   "m2 (a h + (1-a)). Fraction a is set to 0.8, as in [1, Fig.6B]; other\n"
-  "values for a are possible [2] (see also kas_ms.mod in companion code).\n"
+  "values for a are possible [2] (see also kas.mod in companion code).\n"
   "Equation for htau [1] is corrected to match the authors' data [1, Fig.6B].\n"
   "Time constants were corrected to body temperature with factor q=3 [1-3].\n"
   "Later modification by Du [4] is close to this model with adjusted\n"

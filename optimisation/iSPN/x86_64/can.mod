@@ -1,1 +1,0 @@
-../mechanisms-ispn//can.mod

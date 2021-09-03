@@ -220,7 +220,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_cvode(_mechtype, _ode_count, _ode_map, _ode_spec, _ode_matsol);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 sk_fs /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/x86_64/sk_fs.mod\n");
+ 	ivoc_help("help ?1 sk_fs /home/jofrony/Documents/Repositories/Neuromodulation-software/examples/x86_64/sk_fs.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -482,7 +482,7 @@ _first = 0;
 #endif
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/mechanisms-modulation/sk_fs.mod";
+static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/Neuromodulation-software/examples/mechanisms-modulation-ptr/sk_fs.mod";
 static const char* nmodl_file_text = 
   "TITLE SK-type calcium activated K channel (KCa2.2)\n"
   "\n"
@@ -557,7 +557,7 @@ static const char* nmodl_file_text =
   "conductance Ca2+-activated K+ channels and calmodulin. J Physiol 554(Pt\n"
   "2):255-61.\n"
   "\n"
-  "[3] Evans RC, Morera-Herreras T, Cui Y, Du K, Sheehan T, Kotalesk_fsi JH,\n"
+  "[3] Evans RC, Morera-Herreras T, Cui Y, Du K, Sheehan T, Kotaleski JH,\n"
   "Venance L, Blackwell KT (2012) The effects of NMDA subunit composition on\n"
   "calcium influx and spike timing-dependent plasticity in striatal medium\n"
   "spiny neurons. PLoS Comput Biol 8(4):e1002493.\n"

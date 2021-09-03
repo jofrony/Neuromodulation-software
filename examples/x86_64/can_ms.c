@@ -260,7 +260,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_cvode(_mechtype, _ode_count, _ode_map, _ode_spec, _ode_matsol);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 can_ms /home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/x86_64/can_ms.mod\n");
+ 	ivoc_help("help ?1 can_ms /home/jofrony/Documents/Repositories/Neuromodulation-software/examples/x86_64/can_ms.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -607,7 +607,7 @@ _first = 0;
 #endif
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/BasalGangliaExperiments/Neuromodulation-software/examples/mechanisms-modulation/can_ms.mod";
+static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/Neuromodulation-software/examples/mechanisms-modulation-ptr/can_ms.mod";
 static const char* nmodl_file_text = 
   "TITLE N-type calcium current (Cav2.2)\n"
   "\n"
@@ -625,7 +625,7 @@ static const char* nmodl_file_text =
   "    levelDA  [0]: is an additional parameter for scaling modulation. \n"
   "                Can be used simulate non static modulation by gradually changing the value from 0 to 1 {0-1}\n"
   "									\n"
-  "	  Further neuromodulators can_ms be added by for example:\n"
+  "	  Further neuromodulators can be added by for example:\n"
   "          modulationDA = 1 + modDA*(maxModDA-1)\n"
   "	  modulationACh = 1 + modACh*(maxModACh-1)\n"
   "	  ....\n"

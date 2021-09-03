@@ -1,1 +1,0 @@
-../mechanisms-modulation//kir_fs.mod
