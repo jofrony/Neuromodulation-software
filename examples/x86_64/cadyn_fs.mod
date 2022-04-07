@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//cadyn_fs.mod
+../mechanisms-modulation//cadyn_fs.mod

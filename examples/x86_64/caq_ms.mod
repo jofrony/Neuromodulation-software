@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//caq_ms.mod
+../mechanisms-modulation//caq_ms.mod

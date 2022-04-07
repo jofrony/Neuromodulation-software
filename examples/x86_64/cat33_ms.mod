@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//cat33_ms.mod
+../mechanisms-modulation//cat33_ms.mod

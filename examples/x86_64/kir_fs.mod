@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//kir_fs.mod
+../mechanisms-modulation//kir_fs.mod

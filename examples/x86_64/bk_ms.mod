@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//bk_ms.mod
+../mechanisms-modulation//bk_ms.mod

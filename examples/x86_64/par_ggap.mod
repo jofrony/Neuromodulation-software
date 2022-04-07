@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//par_ggap.mod
+../mechanisms-modulation//par_ggap.mod

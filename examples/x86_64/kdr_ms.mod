@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//kdr_ms.mod
+../mechanisms-modulation//kdr_ms.mod

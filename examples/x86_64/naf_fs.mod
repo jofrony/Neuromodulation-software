@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//naf_fs.mod
+../mechanisms-modulation//naf_fs.mod

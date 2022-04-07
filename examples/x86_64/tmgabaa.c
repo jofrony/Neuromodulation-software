@@ -58,8 +58,8 @@ extern double hoc_Exp(double);
 #define modACh _p[11]
 #define maxModACh _p[12]
 #define levelACh _p[13]
-#define failRateA _p[14]
-#define failRateB _p[15]
+#define failRateDA _p[14]
+#define failRateACh _p[15]
 #define failRate _p[16]
 #define i _p[17]
 #define A _p[18]
@@ -216,8 +216,8 @@ static void _ode_matsol(_NrnThread*, _Memb_list*, int);
  "modACh",
  "maxModACh",
  "levelACh",
- "failRateA",
- "failRateB",
+ "failRateDA",
+ "failRateACh",
  "failRate",
  0,
  "i",
@@ -253,8 +253,8 @@ static void nrn_alloc(Prop* _prop) {
  	modACh = 0;
  	maxModACh = 1;
  	levelACh = 0;
- 	failRateA = 0;
- 	failRateB = 0;
+ 	failRateDA = 0;
+ 	failRateACh = 0;
  	failRate = 0;
   }
  	_prop->param = _p;
@@ -303,7 +303,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  pnt_receive_init[_mechtype] = _net_init;
  pnt_receive_size[_mechtype] = 5;
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 tmGabaA /home/jofrony/Documents/Repositories/Neuromodulation-software/examples/x86_64/tmgabaa.mod\n");
+ 	ivoc_help("help ?1 tmGabaA /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/x86_64/tmgabaa.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -352,7 +352,7 @@ static void _net_receive (_pnt, _args, _lflag) Point_process* _pnt; double* _arg
 /*VERBATIM*/
         return;
  }
-   if ( urand ( _threadargs_ ) > ( failRate * failRateB * modACh * levelACh ) ) {
+   if ( urand ( _threadargs_ ) > failRate * ( failRateDA * modDA * levelDA + failRateACh * modACh * levelACh ) ) {
      _args[2] = _args[2] * exp ( - ( t - _args[4] ) / tauR ) ;
      _args[2] = _args[2] + ( _args[1] * ( exp ( - ( t - _args[4] ) / tau ) - exp ( - ( t - _args[4] ) / tauR ) ) / ( tau / tauR - 1.0 ) ) ;
      _args[1] = _args[1] * exp ( - ( t - _args[4] ) / tau ) ;
@@ -617,7 +617,7 @@ _first = 0;
 }
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/Neuromodulation-software/examples/mechanisms-modulation-ptr/tmgabaa.mod";
+static const char* nmodl_filename = "/home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/mechanisms-modulation/tmgabaa.mod";
 static const char* nmodl_file_text = 
   "TITLE GABA_A synapse with short-term plasticity\n"
   "\n"
@@ -654,7 +654,7 @@ static const char* nmodl_file_text =
   "    RANGE tau1, tau2, e, i, q\n"
   "    RANGE tau, tauR, tauF, U, u0\n"
   "    RANGE modDA, maxModDA, levelDA, modACh, maxModACh, levelACh\n"
-  "    RANGE failRateA, failRateB, failRate\n"
+  "    RANGE failRateDA, failRateACh, failRate\n"
   "    NONSPECIFIC_CURRENT i\n"
   "}\n"
   "\n"
@@ -680,8 +680,8 @@ static const char* nmodl_file_text =
   "    modACh = 0\n"
   "    maxModACh = 1 \n"
   "    levelACh = 0\n"
-  "    failRateA = 0\n"
-  "    failRateB = 0\n"
+  "    failRateDA = 0\n"
+  "    failRateACh = 0\n"
   "    failRate = 0\n"
   "}\n"
   "\n"
@@ -731,7 +731,7 @@ static const char* nmodl_file_text =
   "        return;\n"
   "ENDVERBATIM\n"
   "    }\n"
-  "    if( urand() > (failRate*failRateB*modACh*levelACh)) { \n"
+  "    if( urand() > failRate*(failRateDA*modDA*levelDA + failRateACh*modACh*levelACh)) { \n"
   "      z = z*exp(-(t-tsyn)/tauR)\n"
   "      z = z + (y*(exp(-(t-tsyn)/tau) - exp(-(t-tsyn)/tauR)) / (tau/tauR - 1) )\n"
   "      y = y*exp(-(t-tsyn)/tau)\n"

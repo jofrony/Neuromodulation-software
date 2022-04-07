@@ -1,0 +1,42 @@
+Using networkFile: dopamine-trial-network/network-synapses.hdf5
+Using inputFile: dopamine-trial-network/input-spikes.hdf5
+Using logFile: dopamine-trial-network/log/network-simulation-log.txt-0
+Worker 0 : Loading network from dopamine-trial-network/network-synapses.hdf5
+Loading config file dopamine-trial-network/network-config.json
+0 : Memory status: 44% free
+Distributing neurons.
+Setup neurons
+Node 0 - cell 0 dSPN_2
+Neuron dSPN_2 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 4 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 8 iSPN_3
+Neuron iSPN_3 resting voltage = -83.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 12 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 16 iSPN_1
+Neuron iSPN_1 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 20 iSPN_0
+Neuron iSPN_0 resting voltage = -83.0
+!!! Popping extra segment from neuron -- temp fix!
+0 : Memory status: 44% free
+Adding gap junctions.
+connect_network_gap_junctions_local
+Finding node local gap junctions...
+connect_network_synapses
+!!! Found 20 synapses on dSPN_2 (0)  that are further than 20 mum away  (out of 20 synapses) Max found was 30 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+0 : Memory status: 44% free
+Adding external (cortical, thalamic) input from dopamine-trial-network/input-spikes.hdf5
+0 : Memory status: 44% free
+0 : Memory status: 44% free
+Running simulation for 3.0 s
+1% done. Elapsed: 5.2 s, estimated time left: 518.8 s
+2% done. Elapsed: 10.4 s, estimated time left: 508.9 s
+3% done. Elapsed: 15.9 s, estimated time left: 514.0 s
+4% done. Elapsed: 20.9 s, estimated time left: 501.3 s

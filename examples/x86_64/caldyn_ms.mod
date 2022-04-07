@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//caldyn_ms.mod
+../mechanisms-modulation//caldyn_ms.mod

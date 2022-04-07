@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//car_ms.mod
+../mechanisms-modulation//car_ms.mod

@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//kaf_ms.mod
+../mechanisms-modulation//kaf_ms.mod

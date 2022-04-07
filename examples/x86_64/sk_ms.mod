@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//sk_ms.mod
+../mechanisms-modulation//sk_ms.mod

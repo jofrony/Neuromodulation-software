@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//Im_ms.mod
+../mechanisms-modulation//Im_ms.mod

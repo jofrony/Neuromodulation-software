@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//kas_fs.mod
+../mechanisms-modulation//kas_fs.mod

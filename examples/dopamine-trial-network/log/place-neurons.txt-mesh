@@ -1,6 +1,8 @@
 Found old cache file (dopamine-trial-network/mesh/Striatum-cube-mesh-6.38961177054415e-05.obj-63-cache.pickle), ignoring.
 Running in serial
 Voxel mask: 6 x 5 x 6
+min coord: [0.00338649 0.00453662 0.0049839 ], max coord [0.00364208 0.00479221 0.00523948],
+padding 6.38961177054415e-05, bin width 6.38961177054415e-05
 Processing x = 0
 Processing x = 1
 Processing x = 2
@@ -9,17 +11,17 @@ Processing x = 4
 Processing x = 5
 Fraction of border voxels: 0.0
 Saving mesh cache file dopamine-trial-network/mesh/Striatum-cube-mesh-6.38961177054415e-05.obj-63-cache.pickle
-Calculation time: 8.439885243999015 s
+Calculation time: 3.9282584310021775 s
 Setup voxel list
 Setup place neurons
 Update padding mask
 Setup done
 Inner voxel bin volume: 0.0 mm³
-Placed 1 in 0.007638012000825256 s
-Placed 3 in 0.013208340998971835 s
-Placed 4 in 0.017418780997104477 s
-Placed 3 in 0.010385421002865769 s
-Placed 3 in 0.013562591004301794 s
-Placed 3 in 0.00303385599545436 s
-Placed 2 in 0.03854532999685034 s
-Placed 2 in 0.005954617998213507 s
+Placed 1 in 0.0036200600006850436 s
+Placed 3 in 0.006292254998697899 s
+Placed 4 in 0.00841143599973293 s
+Placed 3 in 0.004857945998082869 s
+Placed 3 in 0.006555930001923116 s
+Placed 3 in 0.0015094769987626933 s
+Placed 2 in 0.018612911997479387 s
+Placed 2 in 0.002788515001157066 s

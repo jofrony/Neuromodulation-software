@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//tmglut.mod
+../mechanisms-modulation//tmglut.mod

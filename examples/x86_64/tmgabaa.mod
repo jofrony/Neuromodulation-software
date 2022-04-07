@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//tmgabaa.mod
+../mechanisms-modulation//tmgabaa.mod

@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//can_fs.mod
+../mechanisms-modulation//can_fs.mod

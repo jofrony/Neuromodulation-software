@@ -1,1 +1,1 @@
-../mechanisms-modulation-ptr//cal12_ms.mod
+../mechanisms-modulation//cal12_ms.mod
