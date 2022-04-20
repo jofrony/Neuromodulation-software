@@ -1,1 +1,0 @@
-../mechanisms-modulation-ptr//cap_ch.mod

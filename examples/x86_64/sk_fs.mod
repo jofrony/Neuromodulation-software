@@ -1,1 +1,0 @@
-../mechanisms-modulation//sk_fs.mod
