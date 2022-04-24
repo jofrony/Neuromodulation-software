@@ -3,7 +3,7 @@ Using inputFile: dopamine-trial-network/input-spikes.hdf5
 Using logFile: dopamine-trial-network/log/network-simulation-log.txt-3
 Worker 3 : Loading network from dopamine-trial-network/network-synapses.hdf5
 Loading config file dopamine-trial-network/network-config.json
-3 : Memory status: 20% free
+3 : Memory status: 14% free
 Distributing neurons.
 Setup neurons
 Node 3 - cell 3 dSPN_1
@@ -21,15 +21,15 @@ Neuron iSPN_3 resting voltage = -83.0
 Node 3 - cell 19 iSPN_2
 Neuron iSPN_2 resting voltage = -86.0
 !!! Popping extra segment from neuron -- temp fix!
-3 : Memory status: 20% free
+3 : Memory status: 14% free
 Adding gap junctions.
 connect_network_gap_junctions_local
 Finding node local gap junctions...
 connect_network_synapses
-3 : Memory status: 20% free
+3 : Memory status: 14% free
 Adding external (cortical, thalamic) input from dopamine-trial-network/input-spikes.hdf5
-3 : Memory status: 20% free
-3 : Memory status: 20% free
+3 : Memory status: 14% free
+3 : Memory status: 14% free
 Running simulation for 3.0 s
 Simulation done.
-Simulation run time: 577.1 s
+Simulation run time: 1092.0 s

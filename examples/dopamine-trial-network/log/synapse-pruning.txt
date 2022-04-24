@@ -44,7 +44,7 @@ network/synapses new size (7027, 13)
 big_merge_helper: done
 big_merge_helper (gapJunctions): neuron_range = [ 0 21]
 Setting up out file dopamine-trial-network/temp/gapJunctions-for-neurons-0-to-21-MERGE-ME.hdf5
-gather_neuron_synapses took 0.2 s
+gather_neuron_synapses took 0.3 s
 Warning, multiple_files but running synapses in serial
 Writing to dopamine-trial-network/network-synapses.hdf5
 Opening synapse file: dopamine-trial-network/temp/synapses-for-neurons-0-to-21-MERGE-ME.hdf5
@@ -60,4 +60,4 @@ Output file already set: dopamine-trial-network/network-synapses.hdf5
 prune_synapses: No synapse_file specified for gapJunctions -- none detected?
 Removing temp files from dopamine-trial-network/temp
 Removing temp files from dopamine-trial-network/voxels
-prune synapses and gap junctions: 0.2s
+prune synapses and gap junctions: 0.4s

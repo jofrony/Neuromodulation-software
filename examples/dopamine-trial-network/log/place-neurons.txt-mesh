@@ -11,17 +11,17 @@ Processing x = 4
 Processing x = 5
 Fraction of border voxels: 0.0
 Saving mesh cache file dopamine-trial-network/mesh/Striatum-cube-mesh-6.38961177054415e-05.obj-63-cache.pickle
-Calculation time: 4.081173833008506 s
+Calculation time: 7.038611041993136 s
 Setup voxel list
 Setup place neurons
 Update padding mask
 Setup done
 Inner voxel bin volume: 0.0 mm³
-Placed 1 in 0.0036551119992509484 s
-Placed 3 in 0.0063806389953242615 s
-Placed 4 in 0.008694314004969783 s
-Placed 3 in 0.004989373992430046 s
-Placed 3 in 0.00675287599733565 s
-Placed 3 in 0.0016113949968712404 s
-Placed 2 in 0.01912853900284972 s
-Placed 2 in 0.0029061530076432973 s
+Placed 1 in 0.006656875993940048 s
+Placed 3 in 0.011711473998730071 s
+Placed 4 in 0.015687058999901637 s
+Placed 3 in 0.008988415007479489 s
+Placed 3 in 0.012049766999552958 s
+Placed 3 in 0.0027746280102292076 s
+Placed 2 in 0.03456736300722696 s
+Placed 2 in 0.005233139003394172 s

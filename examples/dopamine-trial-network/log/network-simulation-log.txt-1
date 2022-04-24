@@ -3,7 +3,7 @@ Using inputFile: dopamine-trial-network/input-spikes.hdf5
 Using logFile: dopamine-trial-network/log/network-simulation-log.txt-1
 Worker 1 : Loading network from dopamine-trial-network/network-synapses.hdf5
 Loading config file dopamine-trial-network/network-config.json
-1 : Memory status: 20% free
+1 : Memory status: 14% free
 Distributing neurons.
 Setup neurons
 Node 1 - cell 1 dSPN_2
@@ -21,7 +21,7 @@ Neuron iSPN_0 resting voltage = -83.0
 Node 1 - cell 17 dSPN_2
 Neuron dSPN_2 resting voltage = -87.00000000000001
 !!! Popping extra segment from neuron -- temp fix!
-1 : Memory status: 20% free
+1 : Memory status: 14% free
 Adding gap junctions.
 connect_network_gap_junctions_local
 Finding node local gap junctions...
@@ -30,10 +30,10 @@ connect_network_synapses
  Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
 !!! Found 25 synapses on dSPN_2 (17)  that are further than 20 mum away  (out of 25 synapses) Max found was 25 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
  Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
-1 : Memory status: 20% free
+1 : Memory status: 14% free
 Adding external (cortical, thalamic) input from dopamine-trial-network/input-spikes.hdf5
-1 : Memory status: 20% free
-1 : Memory status: 20% free
+1 : Memory status: 14% free
+1 : Memory status: 14% free
 Running simulation for 3.0 s
 Simulation done.
-Simulation run time: 577.4 s
+Simulation run time: 1092.7 s
