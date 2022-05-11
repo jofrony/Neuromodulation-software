@@ -285,8 +285,8 @@ class neuromodulationInit(SnuddaInit):
 
         # pfdSPNdSPN = "synapses/v1/trace_table.txt-DD-model-parameters.json"
         # pfdSPNiSPN = "synapses/v1/trace_table.txt-DI-model-parameters.json"
-        pfdSPNdSPN = os.path.join("$DATA", "synapses", "striatum", "PlanertFitting-DD-tmgaba-fit-modulation.json")
-        pfdSPNiSPN = os.path.join("$DATA", "synapses","striatum", "PlanertFitting-DI-tmgaba-fit-modulation.json")
+        pfdSPNdSPN = os.path.join("$DATA", "synapses", "striatum", "PlanertFitting-DD-tmgaba-fit_modulation.json")
+        pfdSPNiSPN = os.path.join("$DATA", "synapses","striatum", "PlanertFitting-DI-tmgaba-fit_modulation.json")
         pfdSPNChIN = None
 
         # Argument for distance dependent SPN-SPN synapses:
@@ -397,8 +397,8 @@ class neuromodulationInit(SnuddaInit):
         P22withinUnit = MSP22 * population_unit_SPN_modifier
         P22betweenUnit = MSP22
 
-        pfiSPNdSPN = os.path.join("$DATA", "synapses", "striatum", "PlanertFitting-ID-tmgaba-fit-modulation.json")
-        pfiSPNiSPN = os.path.join("$DATA", "synapses", "striatum", "PlanertFitting-II-tmgaba-fit-modulation.json")
+        pfiSPNdSPN = os.path.join("$DATA", "synapses", "striatum", "PlanertFitting-ID-tmgaba-fit_modulation.json")
+        pfiSPNiSPN = os.path.join("$DATA", "synapses", "striatum", "PlanertFitting-II-tmgaba-fit_modulation.json")
         pfiSPNChIN = None
 
         # GABA decay från Taverna 2008

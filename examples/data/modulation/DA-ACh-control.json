@@ -55,10 +55,16 @@
                         ],
                         "axon": []
                     },
-                    "receptors": [
-                        "tmGabaA",
-                        "tmGlut"
-                    ],
+                    "receptors": {
+                        "tmGabaA": {
+                            "maxMod": 0.8
+                        },
+                        "tmGlut": {
+                            "maxMod_AMPA": 1.2,
+                            "maxMod_NMDA": 1.3,
+                            "failRate": 0.7
+                        }
+                    },
                     "extrinsic": [
                         "CorticalBase",
                         "CorticalSignal",

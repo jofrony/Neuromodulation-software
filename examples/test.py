@@ -7,9 +7,9 @@ args.exportCoreNeuron = False
 args.input_file = None
 args.mech_dir=None
 args.network_file=None
-args.neuromodulation=os.path.join("data", "modulation", "dopamine_modulation.json")
-args.output_file=os.path.join("dopamine-trial-network", "simulation", "network-voltage-DA-trial.hdf5")
-args.path="dopamine-trial-network"
+args.neuromodulation=os.path.join("data", "modulation", "DA-ACh.json")
+args.output_file=os.path.join("dopamine-acetylcholine-adaptive-trial-network", "simulation", "network-voltage-DA-ACh-trial.hdf5")
+args.path="dopamine-acetylcholine-adaptive-trial-network"
 args.profile=False
 args.randomseed=None
 args.record_all=None
@@ -21,6 +21,3 @@ from snudda.core import Snudda
 os.environ["SNUDDA_DATA"] = "data"
 s = Snudda(network_path=args.path)
 s.simulate(args=args)
-
-
-os.system("mpiexec -n 4 snudda simulate dopamine-trial-network --time 3.0 --outputFile 'dopamine-trial-network/simulation/network-voltage-DA-trial.hdf5' --neuromodulation data/modulation/dopamine_modulation.json")
