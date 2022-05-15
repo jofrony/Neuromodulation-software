@@ -1,8 +1,0 @@
-Using networkFile: dopamine-trial-network/network-synapses.hdf5
-Using inputFile: dopamine-trial-network/input-spikes.hdf5
-Using logFile: dopamine-trial-network/log/network-simulation-log.txt-0
-Worker 0 : Loading network from dopamine-trial-network/network-synapses.hdf5
-Loading config file dopamine-trial-network/network-config.json
-0 : Memory status: 3% free
-Distributing neurons.
-Setup neurons

@@ -40,8 +40,8 @@ NEURON {
     RANGE tau, tauR, tauF, U, u0
     RANGE ca_ratio_ampa, ca_ratio_nmda, mggate, use_stp
     RANGE failRateDA, failRateACh, failRate
-    RANGE modDA, maxModDA_AMPA, levelDA, maxModACh_AMPA, levelACh
-    RANGE maxModDA_NMDA, modACh, maxModACh_NMDA 
+    RANGE modDA, maxMod_AMPADA, levelDA, maxMod_AMPAACh, levelACh
+    RANGE maxMod_NMDADA, modACh, maxMod_NMDAACh 
     NONSPECIFIC_CURRENT i
     USEION cal WRITE ical VALENCE 2
 }
@@ -177,7 +177,7 @@ VERBATIM
         return;
 ENDVERBATIM
     }    
-    if( urand() > failRate*(failRateA*modDA*levelDA + failRateB*modACh*levelACh)) { 
+    if( urand() > failRate*(failRateDA*modDA*levelDA + failRateACh*modACh*levelACh)) { 
  
       z = z*exp(-(t-tsyn)/tauR)
       z = z + (y*(exp(-(t-tsyn)/tau) - exp(-(t-tsyn)/tauR)) / (tau/tauR - 1) )

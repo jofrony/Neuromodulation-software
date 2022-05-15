@@ -39,11 +39,11 @@ NEURON {
     RANGE e, g, i, q, mg
     RANGE tau, tauR, tauF, U, u0
     RANGE ca_ratio_ampa, ca_ratio_nmda, mggate, use_stp
-    RANGE failRateA, failRateB, failRate
+    RANGE failRateDA, failRateACh, failRate
     POINTER levelDA
     POINTER levelACh
-    RANGE modDA,maxModDA_AMPA,maxModACh_AMPA
-    RANGE maxModDA_NMDA, modACh, maxModACh_NMDA 
+    RANGE modDA,maxMod_AMPADA,maxMod_AMPAACh
+    RANGE maxMod_NMDADA, modACh, maxMod_NMDAACh 
     NONSPECIFIC_CURRENT i
     USEION cal WRITE ical VALENCE 2
 }
@@ -73,19 +73,19 @@ PARAMETER {
     mg = 1 (mM)
     
     modDA = 0
-    maxModDA_AMPA = 1
+    maxMod_AMPADA = 1
     modACh = 0
-    maxModACh_AMPA = 1 
+    maxMod_AMPAACh = 1 
     levelACh = 0
 
     
-    maxModDA_NMDA = 1
+    maxMod_NMDADA = 1
     levelDA = 0
     
-    maxModACh_NMDA = 1 
+    maxMod_NMDAACh = 1 
 
-    failRateA = 0
-    failRateB = 0
+    failRateDA = 0
+    failRateACh = 0
     failRate = 0
     use_stp = 1     : to turn of use_stp -> use 0
 }
@@ -179,7 +179,7 @@ VERBATIM
         return;
 ENDVERBATIM
     }    
-    if( urand() > failRate*(failRateA*modDA*levelDA + failRateB*modACh*levelACh)) { 
+    if( urand() > failRate*(failRateDA*modDA*levelDA + failRateACh*modACh*levelACh)) { 
  
       z = z*exp(-(t-tsyn)/tauR)
       z = z + (y*(exp(-(t-tsyn)/tau) - exp(-(t-tsyn)/tauR)) / (tau/tauR - 1) )
@@ -221,25 +221,25 @@ FUNCTION urand() {
 FUNCTION modulationDA_NMDA() {
     : returns modulation factor
     
-    modulationDA_NMDA = 1 + modDA*(maxModDA_NMDA-1)*levelDA 
+    modulationDA_NMDA = 1 + modDA*(maxMod_NMDADA-1)*levelDA 
 }
 
 FUNCTION modulationACh_NMDA() {
     : returns modulation factor
     
-    modulationACh_NMDA = 1 + modACh*(maxModACh_NMDA-1)*levelACh 
+    modulationACh_NMDA = 1 + modACh*(maxMod_NMDAACh-1)*levelACh 
 }
 
 FUNCTION modulationDA_AMPA() {
     : returns modulation factor
     
-    modulationDA_AMPA = 1 + modDA*(maxModDA_AMPA-1)*levelDA 
+    modulationDA_AMPA = 1 + modDA*(maxMod_AMPADA-1)*levelDA 
 }
 
 FUNCTION modulationACh_AMPA() {
     : returns modulation factor
     
-    modulationACh_AMPA = 1 + modACh*(maxModACh_AMPA-1)*levelACh 
+    modulationACh_AMPA = 1 + modACh*(maxMod_AMPAACh-1)*levelACh 
 }
 
 COMMENT
