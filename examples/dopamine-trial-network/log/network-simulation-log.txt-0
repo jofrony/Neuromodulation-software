@@ -1,0 +1,192 @@
+Using network_file: dopamine-trial-network/network-synapses.hdf5
+Using input_file: dopamine-trial-network/input-spikes.hdf5
+Using output_file: dopamine-trial-network/simulation/network-voltage-DA-trial-control.hdf5
+Using logFile: dopamine-trial-network/log/network-simulation-log.txt-0
+Worker 0 : Loading network from dopamine-trial-network/network-synapses.hdf5
+Loading config file dopamine-trial-network/network-config.json
+ Using neuromodulation module in Snudda
+0 : Memory status: 45% free
+Distributing neurons.
+Setup neurons
+Node 0 - cell 0 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 1 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 2 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 3 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 4 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 5 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 6 iSPN_1
+Neuron iSPN_1 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 7 FSN_1
+Neuron FSN_1 resting voltage = -85.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 8 iSPN_3
+Neuron iSPN_3 resting voltage = -83.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 9 iSPN_0
+Neuron iSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 10 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 11 iSPN_2
+Neuron iSPN_2 resting voltage = -83.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 12 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 13 iSPN_0
+Neuron iSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 14 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 15 iSPN_3
+Neuron iSPN_3 resting voltage = -83.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 16 iSPN_1
+Neuron iSPN_1 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 17 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 18 iSPN_1
+Neuron iSPN_1 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 19 iSPN_2
+Neuron iSPN_2 resting voltage = -83.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 20 iSPN_0
+Neuron iSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+0 : Memory status: 45% free
+Adding gap junctions.
+connect_network_gap_junctions_local
+Finding node local gap junctions...
+connect_network_synapses
+!!! Found 29 synapses on dSPN_1 (2)  that are further than 20 mum away  (out of 29 synapses) Max found was 31 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 20 synapses on dSPN_1 (3)  that are further than 20 mum away  (out of 20 synapses) Max found was 32 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 19 synapses on dSPN_1 (10)  that are further than 20 mum away  (out of 19 synapses) Max found was 30 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 15 synapses on dSPN_1 (14)  that are further than 20 mum away  (out of 18 synapses) Max found was 24 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+0 : Memory status: 45% free
+Adding external (cortical, thalamic) input from dopamine-trial-network/input-spikes.hdf5
+0 : Memory status: 45% free
+0 : Memory status: 45% free
+Running simulation for 3.0 s
+1% done. Elapsed: 19.9 s, estimated time left: 1968.9 s
+2% done. Elapsed: 41.4 s, estimated time left: 2026.7 s
+3% done. Elapsed: 61.0 s, estimated time left: 1972.6 s
+4% done. Elapsed: 79.8 s, estimated time left: 1914.6 s
+5% done. Elapsed: 100.1 s, estimated time left: 1902.1 s
+6% done. Elapsed: 119.8 s, estimated time left: 1876.4 s
+7% done. Elapsed: 141.2 s, estimated time left: 1876.1 s
+8% done. Elapsed: 160.8 s, estimated time left: 1849.6 s
+9% done. Elapsed: 180.5 s, estimated time left: 1825.3 s
+10% done. Elapsed: 198.7 s, estimated time left: 1788.0 s
+11% done. Elapsed: 215.6 s, estimated time left: 1744.6 s
+12% done. Elapsed: 234.1 s, estimated time left: 1716.7 s
+13% done. Elapsed: 260.4 s, estimated time left: 1742.8 s
+14% done. Elapsed: 281.8 s, estimated time left: 1731.0 s
+15% done. Elapsed: 302.0 s, estimated time left: 1711.2 s
+16% done. Elapsed: 321.6 s, estimated time left: 1688.7 s
+17% done. Elapsed: 340.1 s, estimated time left: 1660.3 s
+18% done. Elapsed: 358.9 s, estimated time left: 1634.8 s
+19% done. Elapsed: 377.1 s, estimated time left: 1607.7 s
+20% done. Elapsed: 394.7 s, estimated time left: 1578.9 s
+21% done. Elapsed: 417.3 s, estimated time left: 1569.8 s
+22% done. Elapsed: 436.0 s, estimated time left: 1545.8 s
+23% done. Elapsed: 454.1 s, estimated time left: 1520.2 s
+24% done. Elapsed: 474.6 s, estimated time left: 1503.0 s
+25% done. Elapsed: 497.6 s, estimated time left: 1492.7 s
+26% done. Elapsed: 518.3 s, estimated time left: 1475.1 s
+27% done. Elapsed: 539.9 s, estimated time left: 1459.6 s
+28% done. Elapsed: 561.7 s, estimated time left: 1444.4 s
+29% done. Elapsed: 583.9 s, estimated time left: 1429.5 s
+30% done. Elapsed: 604.7 s, estimated time left: 1410.9 s
+31% done. Elapsed: 625.9 s, estimated time left: 1393.1 s
+32% done. Elapsed: 647.5 s, estimated time left: 1375.9 s
+33% done. Elapsed: 667.2 s, estimated time left: 1354.6 s
+34% done. Elapsed: 690.1 s, estimated time left: 1339.6 s
+35% done. Elapsed: 709.4 s, estimated time left: 1317.4 s
+36% done. Elapsed: 729.2 s, estimated time left: 1296.4 s
+37% done. Elapsed: 749.0 s, estimated time left: 1275.3 s
+38% done. Elapsed: 768.2 s, estimated time left: 1253.4 s
+39% done. Elapsed: 786.8 s, estimated time left: 1230.7 s
+40% done. Elapsed: 805.1 s, estimated time left: 1207.6 s
+41% done. Elapsed: 823.3 s, estimated time left: 1184.7 s
+42% done. Elapsed: 842.1 s, estimated time left: 1163.0 s
+43% done. Elapsed: 860.8 s, estimated time left: 1141.1 s
+44% done. Elapsed: 879.9 s, estimated time left: 1119.9 s
+45% done. Elapsed: 898.7 s, estimated time left: 1098.5 s
+46% done. Elapsed: 917.4 s, estimated time left: 1077.0 s
+47% done. Elapsed: 938.4 s, estimated time left: 1058.2 s
+48% done. Elapsed: 957.5 s, estimated time left: 1037.3 s
+49% done. Elapsed: 976.1 s, estimated time left: 1015.9 s
+50% done. Elapsed: 995.1 s, estimated time left: 995.1 s
+51% done. Elapsed: 1013.6 s, estimated time left: 973.8 s
+52% done. Elapsed: 1032.2 s, estimated time left: 952.8 s
+53% done. Elapsed: 1050.2 s, estimated time left: 931.3 s
+54% done. Elapsed: 1068.5 s, estimated time left: 910.2 s
+55% done. Elapsed: 1086.9 s, estimated time left: 889.3 s
+56% done. Elapsed: 1105.0 s, estimated time left: 868.2 s
+57% done. Elapsed: 1122.9 s, estimated time left: 847.1 s
+58% done. Elapsed: 1140.9 s, estimated time left: 826.2 s
+59% done. Elapsed: 1159.3 s, estimated time left: 805.6 s
+60% done. Elapsed: 1177.5 s, estimated time left: 785.0 s
+61% done. Elapsed: 1195.1 s, estimated time left: 764.1 s
+62% done. Elapsed: 1213.3 s, estimated time left: 743.6 s
+63% done. Elapsed: 1232.1 s, estimated time left: 723.6 s
+64% done. Elapsed: 1250.2 s, estimated time left: 703.2 s
+65% done. Elapsed: 1268.5 s, estimated time left: 683.0 s
+66% done. Elapsed: 1286.7 s, estimated time left: 662.8 s
+67% done. Elapsed: 1304.5 s, estimated time left: 642.5 s
+68% done. Elapsed: 1322.6 s, estimated time left: 622.4 s
+69% done. Elapsed: 1343.2 s, estimated time left: 603.4 s
+70% done. Elapsed: 1361.5 s, estimated time left: 583.5 s
+71% done. Elapsed: 1379.9 s, estimated time left: 563.6 s
+72% done. Elapsed: 1398.0 s, estimated time left: 543.7 s
+73% done. Elapsed: 1415.9 s, estimated time left: 523.7 s
+74% done. Elapsed: 1433.8 s, estimated time left: 503.8 s
+75% done. Elapsed: 1451.9 s, estimated time left: 484.0 s
+76% done. Elapsed: 1470.1 s, estimated time left: 464.2 s
+77% done. Elapsed: 1488.0 s, estimated time left: 444.5 s
+78% done. Elapsed: 1506.8 s, estimated time left: 425.0 s
+79% done. Elapsed: 1525.0 s, estimated time left: 405.4 s
+80% done. Elapsed: 1543.8 s, estimated time left: 386.0 s
+81% done. Elapsed: 1562.4 s, estimated time left: 366.5 s
+82% done. Elapsed: 1581.0 s, estimated time left: 347.1 s
+83% done. Elapsed: 1599.2 s, estimated time left: 327.5 s
+84% done. Elapsed: 1617.2 s, estimated time left: 308.0 s
+85% done. Elapsed: 1635.4 s, estimated time left: 288.6 s
+86% done. Elapsed: 1653.7 s, estimated time left: 269.2 s
+87% done. Elapsed: 1673.0 s, estimated time left: 250.0 s
+88% done. Elapsed: 1691.2 s, estimated time left: 230.6 s
+89% done. Elapsed: 1710.3 s, estimated time left: 211.4 s
+90% done. Elapsed: 1729.1 s, estimated time left: 192.1 s
+91% done. Elapsed: 1748.3 s, estimated time left: 172.9 s
+92% done. Elapsed: 1768.4 s, estimated time left: 153.8 s
+93% done. Elapsed: 1785.9 s, estimated time left: 134.4 s
+94% done. Elapsed: 1803.9 s, estimated time left: 115.1 s
+95% done. Elapsed: 1822.6 s, estimated time left: 95.9 s
+96% done. Elapsed: 1843.0 s, estimated time left: 76.8 s
+97% done. Elapsed: 1862.2 s, estimated time left: 57.6 s
+98% done. Elapsed: 1882.3 s, estimated time left: 38.4 s
+99% done. Elapsed: 1901.4 s, estimated time left: 19.2 s
+Simulation done.
+Simulation run time: 1920.4 s

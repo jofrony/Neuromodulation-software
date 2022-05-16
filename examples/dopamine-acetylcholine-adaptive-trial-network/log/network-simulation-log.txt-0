@@ -1,0 +1,144 @@
+Using network_file: dopamine-acetylcholine-adaptive-trial-network/network-synapses.hdf5
+Using input_file: dopamine-acetylcholine-adaptive-trial-network/input-spikes.hdf5
+Using output_file: dopamine-acetylcholine-adaptive-trial-network/simulation/network-voltage-DA-ACh-trial.hdf5
+Using logFile: dopamine-acetylcholine-adaptive-trial-network/log/network-simulation-log.txt-0
+Worker 0 : Loading network from dopamine-acetylcholine-adaptive-trial-network/network-synapses.hdf5
+Loading config file dopamine-acetylcholine-adaptive-trial-network/network-config.json
+ Using neuromodulation module in Snudda
+0 : Memory status: 70% free
+Distributing neurons.
+Setup neurons
+Node 0 - cell 0 DopaminergicAxon_0
+Neuron DopaminergicAxon_0 resting voltage = -75.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 1 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 2 DopaminergicAxon_0
+Neuron DopaminergicAxon_0 resting voltage = -75.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 3 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 4 DopaminergicAxon_0
+Neuron DopaminergicAxon_0 resting voltage = -75.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 5 DopaminergicAxon_0
+Neuron DopaminergicAxon_0 resting voltage = -75.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 6 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 7 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 8 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 9 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 10 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 11 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 12 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 13 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 14 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 15 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 16 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 17 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 18 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 19 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 20 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 21 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 22 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 23 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 24 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 25 dSPN_2
+Neuron dSPN_2 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 26 dSPN_1
+Neuron dSPN_1 resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 27 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 0 - cell 28 dSPN_0
+Neuron dSPN_0 resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+0 : Memory status: 69% free
+!!! Found 1233 synapses on dSPN_1 (6)  that are further than 20 mum away  (out of 1233 synapses) Max found was 32 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1228 synapses on dSPN_1 (8)  that are further than 20 mum away  (out of 1228 synapses) Max found was 32 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1356 synapses on dSPN_1 (10)  that are further than 20 mum away  (out of 1356 synapses) Max found was 32 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1246 synapses on dSPN_1 (13)  that are further than 20 mum away  (out of 1247 synapses) Max found was 30 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1223 synapses on dSPN_1 (15)  that are further than 20 mum away  (out of 1250 synapses) Max found was 30 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1278 synapses on dSPN_1 (22)  that are further than 20 mum away  (out of 1278 synapses) Max found was 31 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 915 synapses on dSPN_1 (23)  that are further than 20 mum away  (out of 915 synapses) Max found was 33 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 725 synapses on dSPN_1 (26)  that are further than 20 mum away  (out of 725 synapses) Max found was 30 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+Adding gap junctions.
+connect_network_gap_junctions_local
+Finding node local gap junctions...
+connect_network_synapses
+!!! Found 1233 synapses on dSPN_1 (6)  that are further than 20 mum away  (out of 1233 synapses) Max found was 32 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1228 synapses on dSPN_1 (8)  that are further than 20 mum away  (out of 1228 synapses) Max found was 32 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1356 synapses on dSPN_1 (10)  that are further than 20 mum away  (out of 1356 synapses) Max found was 32 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1246 synapses on dSPN_1 (13)  that are further than 20 mum away  (out of 1247 synapses) Max found was 30 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1223 synapses on dSPN_1 (15)  that are further than 20 mum away  (out of 1250 synapses) Max found was 30 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 1278 synapses on dSPN_1 (22)  that are further than 20 mum away  (out of 1278 synapses) Max found was 31 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 915 synapses on dSPN_1 (23)  that are further than 20 mum away  (out of 915 synapses) Max found was 33 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+!!! Found 725 synapses on dSPN_1 (26)  that are further than 20 mum away  (out of 725 synapses) Max found was 30 mum from expected location. morphology: /home/jofrony/Documents/Repositories/BasalGangliaPublications/Neuromodulation-software/examples/data/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/WT-P270-20-15ak-cor-res3.swc
+ Check that soma is centered at (0,0,0). Also check that the first dendritic compartment of each dendrite is not too far away from the soma, then NEURON  adds an extra connecting compartment which messes up section IDs.
+0 : Memory status: 66% free
+Adding external (cortical, thalamic) input from dopamine-acetylcholine-adaptive-trial-network/input-spikes.hdf5
+0 : Memory status: 66% free
+0 : Memory status: 66% free
+Running simulation for 3.0 s
+1% done. Elapsed: 60.8 s, estimated time left: 6021.6 s
+2% done. Elapsed: 110.9 s, estimated time left: 5432.1 s
+3% done. Elapsed: 161.5 s, estimated time left: 5223.4 s
+4% done. Elapsed: 213.0 s, estimated time left: 5111.3 s
+5% done. Elapsed: 284.6 s, estimated time left: 5406.7 s
