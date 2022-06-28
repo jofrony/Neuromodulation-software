@@ -79,7 +79,7 @@
                         0.008,
                         1000.0
                     ],
-                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-FD-tmgaba-fit_modulation.json",
+                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-FD-tmgaba-fit.json",
                     "modFile": "tmGabaA"
                 },
                 "clusterSize": 1,
@@ -109,7 +109,7 @@
                         0.008,
                         1000.0
                     ],
-                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-FI-tmgaba-fit_modulation.json",
+                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-FI-tmgaba-fit.json",
                     "modFile": "tmGabaA"
                 },
                 "clusterSize": 1,
@@ -161,7 +161,7 @@
                         1000.0
                     ],
                     "failRate": 0.7,
-                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-DD-tmgaba-fit_modulation.json",
+                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-DD-tmgaba-fit.json",
                     "modFile": "tmGabaA"
                 },
                 "clusterSize": 1,
@@ -200,7 +200,7 @@
                         1000.0
                     ],
                     "failRate": 0.7,
-                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-DI-tmgaba-fit_modulation.json",
+                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-DI-tmgaba-fit.json",
                     "modFile": "tmGabaA"
                 },
                 "clusterSize": 1,
@@ -261,7 +261,7 @@
                         1000.0
                     ],
                     "failRate": 0.4,
-                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-ID-tmgaba-fit_modulation.json",
+                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-ID-tmgaba-fit.json",
                     "modFile": "tmGabaA"
                 },
                 "clusterSize": 1,
@@ -300,7 +300,7 @@
                         1000.0
                     ],
                     "failRate": 0.4,
-                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-II-tmgaba-fit_modulation.json",
+                    "parameterFile": "$DATA/synapses/striatum/PlanertFitting-II-tmgaba-fit.json",
                     "modFile": "tmGabaA"
                 },
                 "clusterSize": 1,

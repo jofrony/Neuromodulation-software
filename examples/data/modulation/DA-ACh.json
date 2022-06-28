@@ -22,6 +22,24 @@
                     "receptors": null,
                     "extrinsic": null,
                     "type": "spiking-concentration"
+                },
+                "iSPN": {
+                    "ion_channels": {
+                        "soma": [
+                            "kir_ms",
+                            "cal12_ms",
+                            "cal13_ms",
+                            "can_ms"
+                        ],
+                        "dendrite": [
+                            "kir_ms",
+                            "cal12_ms",
+                            "cal13_ms"
+                        ]
+                    },
+                    "receptors": null,
+                    "extrinsic": null,
+                    "type": "spiking-concentration"
                 }
             }
         },
@@ -57,9 +75,19 @@
                         "Thalamic"
                     ],
                     "type": "spiking-concentration"
+                },
+                "iSPN": {
+                    "ion_channels": {
+                        "soma": [],
+                        "dendrite": [],
+                        "axon": []
+                    },
+                    "receptors": null,
+                    "extrinsic": null,
+                    "type": null
                 }
             }
         }
     },
-    "weight": 0.01
+    "weight": 0.1
 }

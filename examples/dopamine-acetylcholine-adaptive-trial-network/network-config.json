@@ -13,8 +13,8 @@
         "Striatum": {
             "type": "mesh",
             "dMin": 1.5e-05,
-            "meshFile": "dopamine-acetylcholine-adaptive-trial-network/mesh/Striatum-cube-mesh-6.771965071498173e-05.obj",
-            "meshBinWidth": 6.771965071498173e-05
+            "meshFile": "dopamine-acetylcholine-adaptive-trial-network/mesh/Striatum-cube-mesh-4.989626526218353e-05.obj",
+            "meshBinWidth": 4.989626526218353e-05
         },
         "SNc": {
             "type": "mesh",
@@ -626,7 +626,7 @@
             "parameters": "$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20210212/parameters.json",
             "mechanisms": "$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20210212/mechanisms.json",
             "modulation": "$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20210212/modulation.json",
-            "num": 8,
+            "num": 1,
             "hoc": null,
             "neuronType": "neuron",
             "rotationMode": "random",
@@ -637,7 +637,7 @@
             "parameters": "$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/parameters.json",
             "mechanisms": "$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/mechanisms.json",
             "modulation": "$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20210212/modulation.json",
-            "num": 8,
+            "num": 2,
             "hoc": null,
             "neuronType": "neuron",
             "rotationMode": "random",
@@ -648,14 +648,58 @@
             "parameters": "$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150917_c9_d1-mWT-1215MSN03-v20210212/parameters.json",
             "mechanisms": "$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150917_c9_d1-mWT-1215MSN03-v20210212/mechanisms.json",
             "modulation": "$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150917_c9_d1-mWT-1215MSN03-v20210212/modulation.json",
-            "num": 9,
+            "num": 2,
+            "hoc": null,
+            "neuronType": "neuron",
+            "rotationMode": "random",
+            "volumeID": "Striatum"
+        },
+        "iSPN_0": {
+            "morphology": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150908_c4_D2-m51-5-DE-v20210215/51-5-DE-cor-rep-ax-res3.swc",
+            "parameters": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150908_c4_D2-m51-5-DE-v20210215/parameters.json",
+            "mechanisms": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150908_c4_D2-m51-5-DE-v20210215/mechanisms.json",
+            "modulation": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150908_c4_D2-m51-5-DE-v20210215/modulation.json",
+            "num": 1,
+            "hoc": null,
+            "neuronType": "neuron",
+            "rotationMode": "random",
+            "volumeID": "Striatum"
+        },
+        "iSPN_1": {
+            "morphology": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150917_c11_D2-mWT-MSN1-v20210215/WT-MSN1-cor-rep-ax-res3.swc",
+            "parameters": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150917_c11_D2-mWT-MSN1-v20210215/parameters.json",
+            "mechanisms": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150917_c11_D2-mWT-MSN1-v20210215/mechanisms.json",
+            "modulation": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150917_c11_D2-mWT-MSN1-v20210215/modulation.json",
+            "num": 2,
+            "hoc": null,
+            "neuronType": "neuron",
+            "rotationMode": "random",
+            "volumeID": "Striatum"
+        },
+        "iSPN_2": {
+            "morphology": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e151123_c1_D2-mWT-P270-09-v20210215/WT-P270-09-15ak-cor-res3.swc",
+            "parameters": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e151123_c1_D2-mWT-P270-09-v20210215/parameters.json",
+            "mechanisms": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e151123_c1_D2-mWT-P270-09-v20210215/mechanisms.json",
+            "modulation": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e151123_c1_D2-mWT-P270-09-v20210215/modulation.json",
+            "num": 1,
+            "hoc": null,
+            "neuronType": "neuron",
+            "rotationMode": "random",
+            "volumeID": "Striatum"
+        },
+        "iSPN_3": {
+            "morphology": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e160118_c10_D2-m46-3-DE-v20210215/46-3-DE-cor-rep-ax-res3.swc",
+            "parameters": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e160118_c10_D2-m46-3-DE-v20210215/parameters.json",
+            "mechanisms": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e160118_c10_D2-m46-3-DE-v20210215/mechanisms.json",
+            "modulation": "$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e160118_c10_D2-m46-3-DE-v20210215/modulation.json",
+            "num": 1,
             "hoc": null,
             "neuronType": "neuron",
             "rotationMode": "random",
             "volumeID": "Striatum"
         },
         "DopaminergicAxon_0": {
-            "morphology": "$SNUDDA_DATA/neurons/SNc/DA/lts_morp_2019-11-07_centered_no_axon.swc",
+            "morphology": "$SNUDDA_DATA/neurons/SNc/DA/example_cell.swc",
             "parameters": "$SNUDDA_DATA/neurons/SNc/DA/parameters.json",
             "mechanisms": "$SNUDDA_DATA/neurons/SNc/DA/mechanisms.json",
             "modulation": "$SNUDDA_DATA/neurons/SNc/DA/modulation.json",

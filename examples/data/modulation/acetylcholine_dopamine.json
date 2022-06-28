@@ -1,1 +1,221 @@
-{"type": "replay", "description": {"ACh": {"name": "acetylcholine", "ion_channels": {"dSPN": {"soma": ["kaf_ms", "kir_ms", "cal12_ms", "cal13_ms", "can_ms", "Im_ms"], "dendrite": ["kaf_ms", "kir_ms", "cal12_ms", "cal13_ms"], "axon": []}, "iSPN": {"soma": ["kir_ms", "cal12_ms", "cal13_ms", "can_ms"], "dendrite": ["kir_ms", "cal12_ms", "cal13_ms"], "axon": ["Im_ms"]}, "FSN": {"soma": [], "dendrite": [], "axon": []}, "LTS": {"soma": ["im_lts", "kir23_lts"], "dendrite": ["im_lts", "kir23_lts"], "axon": []}, "ChIN": {"soma": ["cap_ch", "cal_ch"], "dendrite": ["cap_ch", "cal_ch", "kir23_ch"], "axon": []}}, "receptors": {}, "presynaptic": {}, "method": "alpha_background", "duration": 3000, "parameters": {"tstart": 700, "tonic": 0.5, "gmax_increase": 0.5, "tau": 300}, "dt": 0.025}, "DA": {"name": "dopamine", "ion_channels": {"dSPN": {"soma": ["cal12_ms", "cal13_ms", "kir_ms", "kas_ms", "naf_ms", "can_ms"], "dendrite": ["kir_ms", "kas_ms", "kaf_ms", "cal12_ms", "cal13_ms"], "axon": []}, "iSPN": {"soma": ["kir_ms", "kas_ms", "kaf_ms", "naf_ms", "cal12_ms", "cal13_ms", "can_ms", "car_ms"], "dendrite": ["kir_ms", "kas_ms", "kaf_ms", "naf_ms", "cal12_ms", "cal13_ms", "can_ms", "car_ms"], "axon": ["kir_ms", "kas_ms", "kaf_ms", "naf_ms", "cal12_ms", "cal13_ms", "can_ms", "car_ms"]}, "FSN": {"soma": ["naf_fs", "kaf_fs", "kas_fs", "kir_fs"], "dendrite": ["naf_fs", "kaf_fs", "kas_fs", "kir_fs"], "axon": []}, "LTS": {"soma": ["hd_lts", "na3_lts"], "dendrite": ["hd_lts"], "axon": []}, "ChIN": {"soma": ["hcn12_ch"], "dendrite": ["hcn12_ch"], "axon": ["hcn12_ch"]}}, "receptors": {}, "presynaptic": {}, "method": "alpha", "duration": 3000, "parameters": {"tstart": 500, "gmax": 1, "tau": 300}, "dt": 0.025}}}
+{
+    "description": {
+        "ACh": {
+            "dt": 0.025,
+            "duration": 3000,
+            "ion_channels": {
+                "ChIN": {
+                    "axon": [],
+                    "dendrite": [
+                        "cap_ch",
+                        "cal_ch",
+                        "kir23_ch"
+                    ],
+                    "soma": []
+                },
+                "FSN": {
+                    "axon": [],
+                    "dendrite": [],
+                    "soma": []
+                },
+                "LTS": {
+                    "axon": [],
+                    "dendrite": [
+                        "im_lts",
+                        "kir23_lts"
+                    ],
+                    "soma": [
+                        "im_lts",
+                        "kir23_lts"
+                    ]
+                },
+                "acetylcholine": {
+                    "axon": [],
+                    "dendrite": [],
+                    "soma": [
+                        "cap_ch",
+                        "cal_ch"
+                    ]
+                },
+                "dSPN": {
+                    "axon": [],
+                    "dendrite": [
+                        "kaf_ms",
+                        "kir_ms",
+                        "cal12_ms",
+                        "cal13_ms"
+                    ],
+                    "soma": [
+                        "kaf_ms",
+                        "kir_ms",
+                        "cal12_ms",
+                        "cal13_ms",
+                        "can_ms",
+                        "Im_ms"
+                    ]
+                },
+                "iSPN": {
+                    "axon": [
+                        "Im_ms"
+                    ],
+                    "dendrite": [
+                        "kir_ms",
+                        "cal12_ms",
+                        "cal13_ms"
+                    ],
+                    "soma": [
+                        "kir_ms",
+                        "cal12_ms",
+                        "cal13_ms",
+                        "can_ms"
+                    ]
+                }
+            },
+            "method": "alpha_background",
+            "name": "acetylcholine",
+            "parameters": {
+                "gmax_increase": 0.5,
+                "tau": 300,
+                "tonic": 0.5,
+                "tstart": 700
+            },
+            "presynaptic": {
+                "ChIN": {},
+                "FSN": {},
+                "LTS": {},
+                "acetylcholine": {},
+                "dSPN": {},
+                "iSPN": {}
+            },
+            "receptors": {
+                "ChIN": {},
+                "FSN": {},
+                "LTS": {},
+                "acetylcholine": {},
+                "dSPN": {},
+                "iSPN": {}
+            }
+        },
+        "DA": {
+            "dt": 0.025,
+            "duration": 3000,
+            "ion_channels": {
+                "ChIN": {
+                    "axon": [
+                        "hcn12_ch"
+                    ],
+                    "dendrite": [
+                        "hcn12_ch"
+                    ],
+                    "soma": [
+                        "hcn12_ch"
+                    ]
+                },
+                "FSN": {
+                    "axon": [],
+                    "dendrite": [
+                        "naf_fs",
+                        "kaf_fs",
+                        "kas_fs",
+                        "kir_fs"
+                    ],
+                    "soma": [
+                        "naf_fs",
+                        "kaf_fs",
+                        "kas_fs",
+                        "kir_fs"
+                    ]
+                },
+                "LTS": {
+                    "axon": [],
+                    "dendrite": [
+                        "hd_lts"
+                    ],
+                    "soma": [
+                        "hd_lts",
+                        "na3_lts"
+                    ]
+                },
+                "acetylcholine": {
+                    "axon": [],
+                    "dendrite": [],
+                    "soma": []
+                },
+                "dSPN": {
+                    "axon": [],
+                    "dendrite": [
+                        "kir_ms",
+                        "kas_ms",
+                        "kaf_ms",
+                        "cal12_ms",
+                        "cal13_ms"
+                    ],
+                    "soma": [
+                        "cal12_ms",
+                        "cal13_ms",
+                        "kir_ms",
+                        "kas_ms",
+                        "naf_ms",
+                        "can_ms"
+                    ]
+                },
+                "iSPN": {
+                    "axon": [
+                        "kir_ms",
+                        "kas_ms",
+                        "kaf_ms",
+                        "naf_ms",
+                        "cal12_ms",
+                        "cal13_ms",
+                        "can_ms",
+                        "car_ms"
+                    ],
+                    "dendrite": [
+                        "kir_ms",
+                        "kas_ms",
+                        "kaf_ms",
+                        "naf_ms",
+                        "cal12_ms",
+                        "cal13_ms",
+                        "can_ms",
+                        "car_ms"
+                    ],
+                    "soma": [
+                        "kir_ms",
+                        "kas_ms",
+                        "kaf_ms",
+                        "naf_ms",
+                        "cal12_ms",
+                        "cal13_ms",
+                        "can_ms",
+                        "car_ms"
+                    ]
+                }
+            },
+            "method": "alpha",
+            "name": "dopamine",
+            "parameters": {
+                "gmax": 1,
+                "tau": 300,
+                "tstart": 500
+            },
+            "presynaptic": {
+                "ChIN": {},
+                "FSN": {},
+                "LTS": {},
+                "acetylcholine": {},
+                "dSPN": {},
+                "iSPN": {}
+            },
+            "receptors": {
+                "ChIN": {},
+                "FSN": {},
+                "LTS": {},
+                "acetylcholine": {},
+                "dSPN": {},
+                "iSPN": {}
+            }
+        }
+    },
+    "type": "replay"
+}
