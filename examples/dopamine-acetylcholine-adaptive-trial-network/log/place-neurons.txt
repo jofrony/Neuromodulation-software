@@ -1,7 +1,7 @@
 Using hdf5 version: latest
 Parsing configuration file dopamine-acetylcholine-adaptive-trial-network/network-config.json
 Reading random seed from config file: 3048105090
-Using mesh_bin_width 4.989626526218353e-05
+Using mesh_bin_width 5.150692246568834e-05
 Cube or slice mesh, switching to serial processing.
 Using dimensions from config file
 Using mesh_bin_width 5.000000000000003e-05
@@ -14,6 +14,7 @@ Adding: 1 iSPN_0
 Adding: 2 iSPN_1
 Adding: 1 iSPN_2
 Adding: 1 iSPN_3
+Adding: 1 ChIN_0
 Adding: 4 DopaminergicAxon_0
 Re-sorting the neuron IDs
 Writing data to HDF5 file: dopamine-acetylcholine-adaptive-trial-network/network-neuron-positions.hdf5

@@ -13,8 +13,8 @@
         "Striatum": {
             "type": "mesh",
             "dMin": 1.5e-05,
-            "meshFile": "dopamine-acetylcholine-adaptive-trial-network/mesh/Striatum-cube-mesh-4.989626526218353e-05.obj",
-            "meshBinWidth": 4.989626526218353e-05
+            "meshFile": "dopamine-acetylcholine-adaptive-trial-network/mesh/Striatum-cube-mesh-5.150692246568834e-05.obj",
+            "meshBinWidth": 5.150692246568834e-05
         },
         "SNc": {
             "type": "mesh",
@@ -555,69 +555,6 @@
                     "cluster": false
                 }
             }
-        },
-        "DopaminergicAxon,FSN": {
-            "Dopamine": {
-                "conductance": [
-                    1e-09,
-                    1e-10
-                ],
-                "channelParameters": {
-                    "modFile": "concDA"
-                },
-                "clusterSize": 1,
-                "clusterSpread": null,
-                "pruning": {
-                    "f1": null,
-                    "softMax": null,
-                    "mu2": null,
-                    "a3": null,
-                    "distPruning": null,
-                    "cluster": false
-                }
-            }
-        },
-        "DopaminergicAxon,LTS": {
-            "Dopamine": {
-                "conductance": [
-                    1e-09,
-                    1e-10
-                ],
-                "channelParameters": {
-                    "modFile": "concDA"
-                },
-                "clusterSize": 1,
-                "clusterSpread": null,
-                "pruning": {
-                    "f1": null,
-                    "softMax": null,
-                    "mu2": null,
-                    "a3": null,
-                    "distPruning": null,
-                    "cluster": false
-                }
-            }
-        },
-        "DopaminergicAxon,ChIN": {
-            "Dopamine": {
-                "conductance": [
-                    1e-09,
-                    1e-10
-                ],
-                "channelParameters": {
-                    "modFile": "concDA"
-                },
-                "clusterSize": 1,
-                "clusterSpread": null,
-                "pruning": {
-                    "f1": null,
-                    "softMax": null,
-                    "mu2": null,
-                    "a3": null,
-                    "distPruning": null,
-                    "cluster": false
-                }
-            }
         }
     },
     "Neurons": {
@@ -697,6 +634,22 @@
             "neuronType": "neuron",
             "rotationMode": "random",
             "volumeID": "Striatum"
+        },
+        "ChIN_0": {
+            "morphology": "$SNUDDA_DATA/neurons/striatum/chin/str-chin-e170614_cell6-m17JUL301751_170614_no6_MD_cell_1_x63-v20190710/morphology",
+            "parameters": "$SNUDDA_DATA/neurons/striatum/chin/str-chin-e170614_cell6-m17JUL301751_170614_no6_MD_cell_1_x63-v20190710/parameters.json",
+            "mechanisms": "$SNUDDA_DATA/neurons/striatum/chin/str-chin-e170614_cell6-m17JUL301751_170614_no6_MD_cell_1_x63-v20190710/mechanisms.json",
+            "modulation": "$SNUDDA_DATA/neurons/striatum/chin/str-chin-e170614_cell6-m17JUL301751_170614_no6_MD_cell_1_x63-v20190710/modulation.json",
+            "num": 1,
+            "hoc": null,
+            "neuronType": "neuron",
+            "rotationMode": "random",
+            "volumeID": "Striatum",
+            "axonDensity": [
+                "r",
+                "50000*1e12/3*exp(-r/120e-6)",
+                0.0005
+            ]
         },
         "DopaminergicAxon_0": {
             "morphology": "$SNUDDA_DATA/neurons/SNc/DA/example_cell.swc",

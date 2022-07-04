@@ -74,8 +74,16 @@
                 "tau": 300,
                 "tstart": 700
             },
-            "presynaptic": {},
-            "receptors": {}
+            "presynaptic": {
+                "FSN": {},
+                "dSPN": {},
+                "iSPN": {}
+            },
+            "receptors": {
+                "FSN": {},
+                "dSPN": {},
+                "iSPN": {}
+            }
         }
     },
     "type": "replay"

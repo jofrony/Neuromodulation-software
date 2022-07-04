@@ -1,8 +1,8 @@
-Found old cache file (dopamine-acetylcholine-adaptive-trial-network/mesh/Striatum-cube-mesh-4.989626526218353e-05.obj-49-cache.pickle), ignoring.
+No mesh cache file found (dopamine-acetylcholine-adaptive-trial-network/mesh/Striatum-cube-mesh-5.150692246568834e-05.obj-51-cache.pickle)
 Running in serial
-Voxel mask: 6 x 6 x 6
-min coord: [0.00344284 0.00454056 0.00498963], max coord [0.00364243 0.00474015 0.00518921],
-padding 4.989626526218353e-05, bin width 4.989626526218353e-05
+Voxel mask: 6 x 5 x 6
+min coord: [0.00345096 0.00453261 0.00499617], max coord [0.00365699 0.00473864 0.0052022 ],
+padding 5.150692246568834e-05, bin width 5.150692246568834e-05
 Processing x = 0
 Processing x = 1
 Processing x = 2
@@ -10,14 +10,14 @@ Processing x = 3
 Processing x = 4
 Processing x = 5
 Fraction of border voxels: 0.0
-Saving mesh cache file dopamine-acetylcholine-adaptive-trial-network/mesh/Striatum-cube-mesh-4.989626526218353e-05.obj-49-cache.pickle
-Calculation time: 4.2295751010024105 s
+Saving mesh cache file dopamine-acetylcholine-adaptive-trial-network/mesh/Striatum-cube-mesh-5.150692246568834e-05.obj-51-cache.pickle
+Calculation time: 4.020281216000001 s
 Setup voxel list
 Setup place neurons
 Update padding mask
 Setup done
 Inner voxel bin volume: 0.0 mm³
-Found old cache file (dopamine-acetylcholine-adaptive-trial-network/mesh/SNc-cube-mesh-5.000000000000003e-05.obj-50-cache.pickle), ignoring.
+No mesh cache file found (dopamine-acetylcholine-adaptive-trial-network/mesh/SNc-cube-mesh-5.000000000000003e-05.obj-50-cache.pickle)
 Running in serial
 Voxel mask: 5 x 5 x 6
 min coord: [0.00345 0.00455 0.005  ], max coord [0.00365 0.00475 0.0052 ],
@@ -29,17 +29,18 @@ Processing x = 3
 Processing x = 4
 Fraction of border voxels: 0.0
 Saving mesh cache file dopamine-acetylcholine-adaptive-trial-network/mesh/SNc-cube-mesh-5.000000000000003e-05.obj-50-cache.pickle
-Calculation time: 0.0018414369988022372 s
+Calculation time: 0.0018066140000030373 s
 Setup voxel list
 Setup place neurons
 Update padding mask
 Setup done
 Inner voxel bin volume: 0.0 mm³
-Placed 1 in 0.0021285310031089466 s
-Placed 2 in 0.0007626600017829333 s
-Placed 2 in 0.0073936250009865034 s
-Placed 1 in 0.02036241400128347 s
-Placed 2 in 0.005261775997496443 s
-Placed 1 in 0.01606680799886817 s
-Placed 1 in 0.017899987997225253 s
-Placed 4 in 0.017952517999219708 s
+Placed 1 in 0.0019073389999846313 s
+Placed 2 in 0.0007313929999952506 s
+Placed 2 in 0.0069591430000173204 s
+Placed 1 in 0.01936029800000938 s
+Placed 2 in 0.005029631000013524 s
+Placed 1 in 0.012280399999980318 s
+Placed 1 in 0.0034834129999978813 s
+Placed 1 in 0.01337690200000452 s
+Placed 4 in 0.017717933999989555 s

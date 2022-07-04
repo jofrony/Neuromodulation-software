@@ -71,8 +71,16 @@
             "parameters": {
                 "gmax": 0
             },
-            "presynaptic": {},
-            "receptors": {}
+            "presynaptic": {
+                "FSN": {},
+                "dSPN": {},
+                "iSPN": {}
+            },
+            "receptors": {
+                "FSN": {},
+                "dSPN": {},
+                "iSPN": {}
+            }
         }
     },
     "type": "replay"

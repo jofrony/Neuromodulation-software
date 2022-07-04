@@ -78,16 +78,56 @@
                 },
                 "iSPN": {
                     "ion_channels": {
-                        "soma": [],
-                        "dendrite": [],
-                        "axon": []
+                        "soma": [
+                            "kir_ms",
+                            "kas_ms",
+                            "kaf_ms",
+                            "naf_ms",
+                            "cal12_ms",
+                            "cal13_ms",
+                            "can_ms",
+                            "car_ms"
+                        ],
+                        "dendrite": [
+                            "kir_ms",
+                            "kas_ms",
+                            "kaf_ms",
+                            "naf_ms",
+                            "cal12_ms",
+                            "cal13_ms",
+                            "can_ms",
+                            "car_ms"
+                        ],
+                        "axon": [
+                            "kir_ms",
+                            "kas_ms",
+                            "kaf_ms",
+                            "naf_ms",
+                            "cal12_ms",
+                            "cal13_ms",
+                            "can_ms",
+                            "car_ms"
+                        ]
                     },
-                    "receptors": null,
-                    "extrinsic": null,
-                    "type": null
+                    "receptors": {
+                        "tmGabaA": {
+                            "maxMod": 0.99
+                        },
+                        "tmGlut": {
+                            "maxMod_AMPA": 0.8,
+                            "maxMod_NMDA": 0.8,
+                            "failRate": 1.3
+                        }
+                    },
+                    "extrinsic": [
+                        "CorticalBase",
+                        "CorticalSignal",
+                        "Thalamic"
+                    ],
+                    "type": "spiking-concentration"
                 }
             }
         }
     },
-    "weight": 0.1
+    "weight": 0.01
 }
