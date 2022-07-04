@@ -19,8 +19,8 @@
                             "cal13_ms"
                         ]
                     },
-                    "receptors": null,
-                    "extrinsic": null,
+                    "receptors": {},
+                    "extrinsic": {},
                     "type": "spiking-concentration"
                 },
                 "iSPN": {
@@ -37,8 +37,8 @@
                             "cal13_ms"
                         ]
                     },
-                    "receptors": null,
-                    "extrinsic": null,
+                    "receptors": {},
+                    "extrinsic": {},
                     "type": "spiking-concentration"
                 }
             }
