@@ -1,8 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 
-def plot_dopamine_control(obj_loaded_traces, type_cell='dSPN'):
+def plot_dopamine_control(obj_loaded_traces, type_cell='dSPN', network_path=None):
     data_dict = obj_loaded_traces.get_traces(neuronType=type_cell)
 
     control = np.array([*data_dict[0].values()])
@@ -41,7 +42,7 @@ def plot_dopamine_control(obj_loaded_traces, type_cell='dSPN'):
             ax.plot(2500 * np.ones_like(np.arange(-80, -75)), np.arange(-80, -75), c='black')
             ax.text(2550, -78, '5 mV')
 
-        fig.savefig('dopamine-trial-network/analysis/dopamine-control-traces' + str(i) + type_cell + ".svg")
+        fig.savefig(os.path.join(network_path,'analysis','dopamine-control-traces' + str(i) + type_cell + ".svg"))
 
     plt.figure(0)
 
@@ -53,7 +54,7 @@ def plot_dopamine_control(obj_loaded_traces, type_cell='dSPN'):
     plt.show()
 
 
-def plot_dopamine_acetylcholine_control(obj_loaded_traces, type_cell='dSPN'):
+def plot_dopamine_acetylcholine_control(obj_loaded_traces, type_cell='dSPN', network_path=None):
     data_dict = obj_loaded_traces.get_traces(neuronType=type_cell)
 
     control = np.array([*data_dict[0].values()])
@@ -85,7 +86,7 @@ def plot_dopamine_acetylcholine_control(obj_loaded_traces, type_cell='dSPN'):
             ax.plot(2500 * np.ones_like(np.arange(-80, -75)), np.arange(-80, -75), c='black')
             ax.text(2550, -78, '5 mV')
 
-        fig.savefig('dopamine-acetylcholine-trial-network/analysis/dopamine-acetylcholine-control-traces' + str(
-            i) + type_cell + ".svg")
+        fig.savefig(os.path.join(network_path,'analysis', 'dopamine-acetylcholine-control-traces' + str(
+            i) + type_cell + ".svg"))
 
     plt.show()
