@@ -10,13 +10,15 @@
                             "kir_ms",
                             "cal12_ms",
                             "cal13_ms",
-                            "can_ms",
-                            "Im_ms"
+                            "can_ms"
                         ],
                         "dendrite": [
                             "kir_ms",
                             "cal12_ms",
                             "cal13_ms"
+                        ],
+                        "axon": [
+                            "Im_ms"
                         ]
                     },
                     "receptors": {},
@@ -35,6 +37,9 @@
                             "kir_ms",
                             "cal12_ms",
                             "cal13_ms"
+                        ],
+                        "axon": [
+                            "Im_ms"
                         ]
                     },
                     "receptors": {},

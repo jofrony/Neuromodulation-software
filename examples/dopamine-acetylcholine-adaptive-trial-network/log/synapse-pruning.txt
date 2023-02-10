@@ -13,54 +13,42 @@ Skipping LTS to dSPN connection
 Skipping LTS to iSPN connection
 Skipping LTS to ChIN connection
 big_merge_helper (synapses): neuron_range = [ 0 15]
-Opening voxel file: dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-20.hdf5
-Checking that b'dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-20.hdf5' matches circuit settings
-Setting max_channel_type to 29 from h_id=20
-min_unique_id: 0, max_unique_id: 6525
-Opening voxel file: dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-1.hdf5
-Checking that b'dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-1.hdf5' matches circuit settings
-min_unique_id: 0, max_unique_id: 6525
 Opening voxel file: dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-21.hdf5
 Checking that b'dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-21.hdf5' matches circuit settings
-min_unique_id: 0, max_unique_id: 6525
-Opening voxel file: dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-4.hdf5
-Checking that b'dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-4.hdf5' matches circuit settings
+Setting max_channel_type to 29 from h_id=21
 min_unique_id: 0, max_unique_id: 6525
 Opening voxel file: dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-5.hdf5
 Checking that b'dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-5.hdf5' matches circuit settings
 min_unique_id: 0, max_unique_id: 6525
+Opening voxel file: dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-22.hdf5
+Checking that b'dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-22.hdf5' matches circuit settings
+min_unique_id: 0, max_unique_id: 6525
 Opening voxel file: dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-17.hdf5
 Checking that b'dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-17.hdf5' matches circuit settings
 min_unique_id: 0, max_unique_id: 6525
-Opening voxel file: dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-16.hdf5
-Checking that b'dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-16.hdf5' matches circuit settings
-min_unique_id: 0, max_unique_id: 6525
-Opening voxel file: dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-0.hdf5
-Checking that b'dopamine-acetylcholine-adaptive-trial-network/voxels/network-putative-synapses-0.hdf5' matches circuit settings
-min_unique_id: 0, max_unique_id: 6525
 Setting up out file dopamine-acetylcholine-adaptive-trial-network/temp/synapses-for-neurons-0-to-15-MERGE-ME.hdf5
-max_axon_voxel_ctr = 7
-max_dend_voxel_ctr = 4
-Read 16051 out of total 16051 synapses
+max_axon_voxel_ctr = 4
+max_dend_voxel_ctr = 3
+Read 1550 out of total 1550 synapses
 Flushing dopamine-acetylcholine-adaptive-trial-network/temp/synapses-for-neurons-0-to-15-MERGE-ME.hdf5 data: network/synapses
-network/synapses new size (16051, 13)
+network/synapses new size (1550, 13)
 big_merge_helper: done
 big_merge_helper (gapJunctions): neuron_range = [ 0 15]
 Setting up out file dopamine-acetylcholine-adaptive-trial-network/temp/gapJunctions-for-neurons-0-to-15-MERGE-ME.hdf5
-gather_neuron_synapses took 0.1 s
+gather_neuron_synapses took 0.0 s
 Warning, multiple_files but running synapses in serial
 Writing to dopamine-acetylcholine-adaptive-trial-network/network-synapses.hdf5
 Opening synapse file: dopamine-acetylcholine-adaptive-trial-network/temp/synapses-for-neurons-0-to-15-MERGE-ME.hdf5
 prune_synapses: synapseFile=<HDF5 file "synapses-for-neurons-0-to-15-MERGE-ME.hdf5" (mode r)>, outputFileName=None, rowRange=None (synapses)
 About to calculate block ranges (1 blocks)
-Find block ranges. From 0 to 16051 block size 16051
-synapse_range=[(0, 16051)]
-blockRanges=[(0, 16051)]
+Find block ranges. From 0 to 1550 block size 1550
+synapse_range=[(0, 1550)]
+blockRanges=[(0, 1550)]
 Output file already set: dopamine-acetylcholine-adaptive-trial-network/network-synapses.hdf5
-Pruning range: (0, 16051)
+Pruning range: (0, 1550)
 Warning, multiple_files but running gapJunctions in serial
 Output file already set: dopamine-acetylcholine-adaptive-trial-network/network-synapses.hdf5
 prune_synapses: No synapse_file specified for gapJunctions -- none detected?
 Removing temp files from dopamine-acetylcholine-adaptive-trial-network/temp
 Removing temp files from dopamine-acetylcholine-adaptive-trial-network/voxels
-prune synapses and gap junctions: 0.2s
+prune synapses and gap junctions: 0.1s

@@ -19,18 +19,12 @@
                 "dSPN": {
                     "axon": [],
                     "dendrite": [
-                        "kir_ms",
                         "kas_ms",
-                        "kaf_ms",
-                        "cal12_ms",
-                        "cal13_ms"
+                        "kaf_ms"
                     ],
                     "soma": [
-                        "cal12_ms",
-                        "cal13_ms",
-                        "kir_ms",
                         "kas_ms",
-                        "naf_ms",
+                        "kaf_ms",
                         "can_ms"
                     ]
                 },

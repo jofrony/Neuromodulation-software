@@ -1,27 +1,26 @@
 Using hdf5 driver version: latest
-Memory: 9762435072 free, 16591253504 total
+Memory: 3629240320 free, 16591282176 total
 Each hyper voxel has 100 x 100 x 100 voxels
 Touch detecting all volumes
+Removing old files dopamine-acetylcholine-adaptive-trial-network/network-synapses.hdf5
+Removing old files dopamine-acetylcholine-adaptive-trial-network/pruning_merge_info.json
+Removing old files dopamine-acetylcholine-adaptive-trial-network/input-spikes.hdf5
 Loading from dopamine-acetylcholine-adaptive-trial-network/network-config.json
 Reading random seed from config file: 4196366895
 Reading prototype for: dSPN_0
-Reading prototype for: dSPN_1
-Reading prototype for: dSPN_2
 Reading prototype for: iSPN_0
-Reading prototype for: iSPN_1
-Reading prototype for: iSPN_2
-Reading prototype for: iSPN_3
 Reading prototype for: ChIN_0
 Setting axon density for neuron without axon
 Reading prototype for: DopaminergicAxon_0
 Setting axon density for neuron without axon
 Loading connectivity information
-Memory: 9758822400 free, 16591253504 total
+Memory: 3621974016 free, 16591282176 total
 Reading positions from file: dopamine-acetylcholine-adaptive-trial-network/network-neuron-positions.hdf5
-Memory: 9758822400 free, 16591253504 total
+Memory: 3621974016 free, 16591282176 total
 Position file read.
 Creating directory dopamine-acetylcholine-adaptive-trial-network/voxels
 setup_parallel called without dView, aborting.
+Removing old work history file
 Work history file: dopamine-acetylcholine-adaptive-trial-network/log/network-detect-worklog.hdf5
 Writing metadata to work history file
 Write neuron data to file
@@ -31,406 +30,146 @@ distribute_neurons: calculating min and max coords
 Finding minMax coord in volumeID = None
 64 hyper voxels in total
 Pre allocation done.
-Calculated distribution of neurons: 0.1 seconds
+Calculated distribution of neurons: 0.2 seconds
 Writing neuron distribution history to file
 !! about to loop projections
 setup_process_hyper_voxel_state_history: Creating new work history.
-Skipping 38 empty hyper voxels
-Processing hyper voxel : 20/64 (15 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for ChIN_0
-num_points = 570449
-place_synapses_no_axon: 3.0 s, hyper_id: 20
-detect_synapses: 2371 took 0.1 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 20 (2371 synapses, 0 gap junctions)
-process_hyper_voxel: 20 took 3.1 s
-HyperID 20 completed - 2371  synapses and 0 gap junctions found (in 3.141325847999724 s)
-Processing hyper voxel : 1/64 (15 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for ChIN_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 3.2 s, hyper_id: 1
-detect_synapses: 2203 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 1 (2203 synapses, 0 gap junctions)
-process_hyper_voxel: 1 took 3.5 s
-HyperID 1 completed - 2203  synapses and 0 gap junctions found (in 3.5017848749998848 s)
+Skipping 41 empty hyper voxels
 Processing hyper voxel : 21/64 (15 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for ChIN_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 3.2 s, hyper_id: 21
-detect_synapses: 2885 took 0.1 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 21 (2885 synapses, 0 gap junctions)
-process_hyper_voxel: 21 took 3.4 s
-HyperID 21 completed - 2885  synapses and 0 gap junctions found (in 3.446088156999849 s)
-Processing hyper voxel : 4/64 (15 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for ChIN_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 3.2 s, hyper_id: 4
-detect_synapses: 2111 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 4 (2111 synapses, 0 gap junctions)
-process_hyper_voxel: 4 took 3.4 s
-HyperID 4 completed - 2111  synapses and 0 gap junctions found (in 3.3589668829999937 s)
+detect_synapses: 1481 took 0.0 s
+detectGapJunctions: 0.1 s
+Wrote hyper voxel 21 (1481 synapses, 0 gap junctions)
+process_hyper_voxel: 21 took 0.3 s
+HyperID 21 completed - 1481  synapses and 0 gap junctions found (in 0.2994273799995426 s)
 Processing hyper voxel : 5/64 (15 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for ChIN_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 3.2 s, hyper_id: 5
-detect_synapses: 4045 took 0.1 s
+detect_synapses: 8 took 0.0 s
 detectGapJunctions: 0.0 s
-Wrote hyper voxel 5 (4045 synapses, 0 gap junctions)
-process_hyper_voxel: 5 took 3.5 s
-HyperID 5 completed - 4045  synapses and 0 gap junctions found (in 3.4562130599997545 s)
-Processing hyper voxel : 17/64 (15 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for ChIN_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 2.7 s, hyper_id: 17
-detect_synapses: 1305 took 0.0 s
+Wrote hyper voxel 5 (8 synapses, 0 gap junctions)
+process_hyper_voxel: 5 took 0.2 s
+HyperID 5 completed - 8  synapses and 0 gap junctions found (in 0.17228354600956663 s)
+Processing hyper voxel : 22/64 (14 neurons)
+detect_synapses: 22 took 0.0 s
 detectGapJunctions: 0.0 s
-Wrote hyper voxel 17 (1305 synapses, 0 gap junctions)
-process_hyper_voxel: 17 took 2.8 s
-HyperID 17 completed - 1305  synapses and 0 gap junctions found (in 2.8242141059999994 s)
-Processing hyper voxel : 16/64 (15 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for ChIN_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 2.6 s, hyper_id: 16
-detect_synapses: 560 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 16 (560 synapses, 0 gap junctions)
-process_hyper_voxel: 16 took 2.7 s
-HyperID 16 completed - 560  synapses and 0 gap junctions found (in 2.695439661999899 s)
-Processing hyper voxel : 0/64 (14 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for ChIN_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 3.1 s, hyper_id: 0
-detect_synapses: 571 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 0 (571 synapses, 0 gap junctions)
-process_hyper_voxel: 0 took 3.2 s
-HyperID 0 completed - 571  synapses and 0 gap junctions found (in 3.1843660399999862 s)
-Processing hyper voxel : 2/64 (7 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.6 s, hyper_id: 2
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 2 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 2 took 1.7 s
-HyperID 2 completed - 0  synapses and 0 gap junctions found (in 1.7079941580000195 s)
-Processing hyper voxel : 8/64 (5 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.4 s, hyper_id: 8
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 8 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 8 took 1.5 s
-HyperID 8 completed - 0  synapses and 0 gap junctions found (in 1.47746631300015 s)
-Processing hyper voxel : 6/64 (5 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.8 s, hyper_id: 6
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 6 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 6 took 1.8 s
-HyperID 6 completed - 0  synapses and 0 gap junctions found (in 1.8306497029998354 s)
-Processing hyper voxel : 18/64 (5 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.6 s, hyper_id: 18
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 18 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 18 took 1.7 s
-HyperID 18 completed - 0  synapses and 0 gap junctions found (in 1.6637901480003165 s)
-Processing hyper voxel : 36/64 (5 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.3 s, hyper_id: 36
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 36 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 36 took 1.4 s
-HyperID 36 completed - 0  synapses and 0 gap junctions found (in 1.430931646999852 s)
-Processing hyper voxel : 9/64 (5 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.4 s, hyper_id: 9
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 9 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 9 took 1.5 s
-HyperID 9 completed - 0  synapses and 0 gap junctions found (in 1.470378594000067 s)
-Processing hyper voxel : 10/64 (4 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.3 s, hyper_id: 10
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 10 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 10 took 1.3 s
-HyperID 10 completed - 0  synapses and 0 gap junctions found (in 1.3431678900001316 s)
-Processing hyper voxel : 37/64 (4 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.3 s, hyper_id: 37
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 37 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 37 took 1.4 s
-HyperID 37 completed - 0  synapses and 0 gap junctions found (in 1.3917366010000478 s)
-Processing hyper voxel : 33/64 (4 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.3 s, hyper_id: 33
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 33 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 33 took 1.4 s
-HyperID 33 completed - 0  synapses and 0 gap junctions found (in 1.4093093490000683 s)
-Processing hyper voxel : 32/64 (4 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.3 s, hyper_id: 32
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 32 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 32 took 1.4 s
-HyperID 32 completed - 0  synapses and 0 gap junctions found (in 1.4304463950002173 s)
-Processing hyper voxel : 25/64 (4 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.4 s, hyper_id: 25
+Wrote hyper voxel 22 (22 synapses, 0 gap junctions)
+process_hyper_voxel: 22 took 0.1 s
+HyperID 22 completed - 22  synapses and 0 gap junctions found (in 0.09933797200210392 s)
+Processing hyper voxel : 25/64 (10 neurons)
 detect_synapses: 0 took 0.0 s
 detectGapJunctions: 0.0 s
 Wrote hyper voxel 25 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 25 took 1.5 s
-HyperID 25 completed - 0  synapses and 0 gap junctions found (in 1.4576796390001618 s)
-Processing hyper voxel : 24/64 (4 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.4 s, hyper_id: 24
+process_hyper_voxel: 25 took 0.1 s
+HyperID 25 completed - 0  synapses and 0 gap junctions found (in 0.07954816400888376 s)
+Processing hyper voxel : 20/64 (10 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 20 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 20 took 0.1 s
+HyperID 20 completed - 0  synapses and 0 gap junctions found (in 0.08968605601694435 s)
+Processing hyper voxel : 17/64 (10 neurons)
+detect_synapses: 39 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 17 (39 synapses, 0 gap junctions)
+process_hyper_voxel: 17 took 0.1 s
+HyperID 17 completed - 39  synapses and 0 gap junctions found (in 0.10253004898549989 s)
+Processing hyper voxel : 6/64 (9 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 6 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 6 took 0.1 s
+HyperID 6 completed - 0  synapses and 0 gap junctions found (in 0.09618823401979171 s)
+Processing hyper voxel : 18/64 (8 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 18 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 18 took 0.1 s
+HyperID 18 completed - 0  synapses and 0 gap junctions found (in 0.08744074599235319 s)
+Processing hyper voxel : 37/64 (7 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 37 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 37 took 0.1 s
+HyperID 37 completed - 0  synapses and 0 gap junctions found (in 0.08492737999767996 s)
+Processing hyper voxel : 33/64 (6 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 33 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 33 took 0.1 s
+HyperID 33 completed - 0  synapses and 0 gap junctions found (in 0.08354676197632216 s)
+Processing hyper voxel : 1/64 (5 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 1 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 1 took 0.1 s
+HyperID 1 completed - 0  synapses and 0 gap junctions found (in 0.08426425000652671 s)
+Processing hyper voxel : 16/64 (5 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 16 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 16 took 0.1 s
+HyperID 16 completed - 0  synapses and 0 gap junctions found (in 0.08372111900825985 s)
+Processing hyper voxel : 9/64 (3 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 9 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 9 took 0.1 s
+HyperID 9 completed - 0  synapses and 0 gap junctions found (in 0.08474568900419399 s)
+Processing hyper voxel : 36/64 (3 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 36 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 36 took 0.1 s
+HyperID 36 completed - 0  synapses and 0 gap junctions found (in 0.08635558898095042 s)
+Processing hyper voxel : 2/64 (3 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 2 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 2 took 0.1 s
+HyperID 2 completed - 0  synapses and 0 gap junctions found (in 0.08150849299272522 s)
+Processing hyper voxel : 24/64 (2 neurons)
 detect_synapses: 0 took 0.0 s
 detectGapJunctions: 0.0 s
 Wrote hyper voxel 24 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 24 took 1.5 s
-HyperID 24 completed - 0  synapses and 0 gap junctions found (in 1.4641323569999258 s)
-Processing hyper voxel : 22/64 (4 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.5 s, hyper_id: 22
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 22 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 22 took 1.6 s
-HyperID 22 completed - 0  synapses and 0 gap junctions found (in 1.582230526999865 s)
-Processing hyper voxel : 26/64 (4 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.3 s, hyper_id: 26
+process_hyper_voxel: 24 took 0.1 s
+HyperID 24 completed - 0  synapses and 0 gap junctions found (in 0.0865950670267921 s)
+Processing hyper voxel : 26/64 (2 neurons)
 detect_synapses: 0 took 0.0 s
 detectGapJunctions: 0.0 s
 Wrote hyper voxel 26 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 26 took 1.4 s
-HyperID 26 completed - 0  synapses and 0 gap junctions found (in 1.3624936679998427 s)
-Processing hyper voxel : 41/64 (4 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.3 s, hyper_id: 41
+process_hyper_voxel: 26 took 0.1 s
+HyperID 26 completed - 0  synapses and 0 gap junctions found (in 0.08740887499880046 s)
+Processing hyper voxel : 4/64 (2 neurons)
 detect_synapses: 0 took 0.0 s
 detectGapJunctions: 0.0 s
-Wrote hyper voxel 41 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 41 took 1.4 s
-HyperID 41 completed - 0  synapses and 0 gap junctions found (in 1.3648942569998326 s)
-Processing hyper voxel : 34/64 (3 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.0 s, hyper_id: 34
-detect_synapses: 0 took 0.0 s
-detectGapJunctions: 0.0 s
-Wrote hyper voxel 34 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 34 took 1.0 s
-HyperID 34 completed - 0  synapses and 0 gap junctions found (in 1.0258842719999848 s)
-Processing hyper voxel : 38/64 (3 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 1.0 s, hyper_id: 38
+Wrote hyper voxel 4 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 4 took 0.1 s
+HyperID 4 completed - 0  synapses and 0 gap junctions found (in 0.08328649800387211 s)
+Processing hyper voxel : 38/64 (2 neurons)
 detect_synapses: 0 took 0.0 s
 detectGapJunctions: 0.0 s
 Wrote hyper voxel 38 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 38 took 1.1 s
-HyperID 38 completed - 0  synapses and 0 gap junctions found (in 1.0531323919999522 s)
-Processing hyper voxel : 40/64 (2 neurons)
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-Placing 570449 random axon points for DopaminergicAxon_0 (cached)
-num_points = 570449
-place_synapses_no_axon: 0.6 s, hyper_id: 40
+process_hyper_voxel: 38 took 0.1 s
+HyperID 38 completed - 0  synapses and 0 gap junctions found (in 0.09341911901719868 s)
+Processing hyper voxel : 41/64 (2 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 41 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 41 took 0.1 s
+HyperID 41 completed - 0  synapses and 0 gap junctions found (in 0.09207673798664473 s)
+Processing hyper voxel : 40/64 (1 neurons)
 detect_synapses: 0 took 0.0 s
 detectGapJunctions: 0.0 s
 Wrote hyper voxel 40 (0 synapses, 0 gap junctions)
-process_hyper_voxel: 40 took 0.7 s
-HyperID 40 completed - 0  synapses and 0 gap junctions found (in 0.7244860389996575 s)
+process_hyper_voxel: 40 took 0.1 s
+HyperID 40 completed - 0  synapses and 0 gap junctions found (in 0.0878920570248738 s)
+Processing hyper voxel : 10/64 (1 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 10 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 10 took 0.1 s
+HyperID 10 completed - 0  synapses and 0 gap junctions found (in 0.08482752001145855 s)
+Processing hyper voxel : 34/64 (1 neurons)
+detect_synapses: 0 took 0.0 s
+detectGapJunctions: 0.0 s
+Wrote hyper voxel 34 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 34 took 0.1 s
+HyperID 34 completed - 0  synapses and 0 gap junctions found (in 0.08403000800171867 s)
